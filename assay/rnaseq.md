@@ -29,10 +29,10 @@ A visual summary is provided below.
 Figure 2: A basic representation of the major steps and considerations in the sequencing of RNA.
 [(Kukurba et al, 2015)](https://doi.org/10.1101/pdb.top084970)
 
-### *Bulk RNAseq*
+### Bulk RNAseq
 For questions on bulk RNAseq, contact: [Stephanie Nevins](mailto:snevins@stanford.edu)
 
-### *10x Genomics single cell RNASeq* 
+### 10x Genomics single cell RNASeq 
 Utilizes a droplet-based emulsion PCR method to encapsulate individual cells with enzyme-containing beads in oil droplets, tagging single cell transcriptomes with UMIs and unique cell barcodes via reverse transcription to cDNA. Tagged transcriptomes are subsequently amplified, sheared to appropriate fragment size, repaired, and ligated with sequencing adapters (illumina) and user-chosen sample index oligos.
 - For questions, contact: [Maigan Brusko](mailto:maigan@ufl.edu)
 
@@ -41,7 +41,7 @@ Utilizes a droplet-based emulsion PCR method to encapsulate individual cells wit
 *Figure 3: Single cell workflow [(Image from Roy J. Carver Biotechnology Center)](https://biotech.illinois.edu/htdna/applications)*.
 
   
-### *SNARE-Seq*
+### SNARE-Seq
 Accessible chromatin in permeabilized nuclei is captured by Tn5 transposase, before droplet generation (DropSeq). Without heating or detergent treatment, binding of transposase to its DNA substrate after transposition maintains contiguity of the original DNA strands, allowing for the co-packaging of accessible genomic sites and mRNA from individual nuclei in the same droplets. A splint oligonucleotide with sequence complementary to the adaptor sequence inserted by transposition (5′ end) and the poly(A) bases (3′ end) allows capture by oligo(dT)-bearing barcoded beads. After encapsulation of nuclei, mRNAs and fragmented chromatin can be released by heating the droplets, allowing access to splint oligonucleotides and adaptor-coated beads with a shared cellular barcode for library construction.
 
 - For questions about SNARE-RNAseq, contact: [Blue Lake](mailto:b1lake@eng.ucsd.edu)
@@ -50,7 +50,7 @@ Accessible chromatin in permeabilized nuclei is captured by Tn5 transposase, bef
 *Figure 4: General workflow for linked single-nucleus transcriptome and chromatin accessibility sequencing of human cell mixtures. a, Workflow of SNARE-seq. b, Aggregate single-nucleus chromatin accessibility profiles.  c, t-SNE visualization of SNARE-seq paired gene expression (upper panel) and chromatin accessibility (lower panel, n=1,047) data from BJ, GM12878, H1 and K562 cell mixture. d, Inter-assay identity agreement reveals consistent linked transcriptome and chromatin accessibility profiles of SNARE-seq data. [(Chen et al., 2019)](https://doi.org/10.1038/s41587-019-0290-0)*.
 
     
-### *sci-RNASeq*
+### sci-RNASeq
 Cells are fixed and permeabilized with methanol (alternatively, cells are lysed and nuclei are recovered), then distributed across 96- or 384-well plates. (ii) A first molecular index is introduced to the mRNA of cells within each well, with in situ reverse transcription (RT) incorporating a barcode-bearing, wellspecific polythymidine primer containing unique molecular identifiers (UMIs). (iii) All cells are pooled and redistributed by fluorescence-activated cell sorting (FACS) to 96- or 384-well plates in limiting numbers (e.g., 10 to 100 per well). Cells are gated on the basis of DAPI (4′,6-diamidino2-phenylindole) staining to discriminate single cells from doublets during sorting. (iv) Second strand synthesis, transposition with transposon 5 (Tn5) transposase, lysis, and polymerase chain reaction (PCR) amplification are performed. The PCR primers target the barcoded polythymidine primer on one end and the Tn5 adaptor insertion on the other end, so that resulting PCR amplicons preferentially capture the 3′ ends of transcripts. These primers introduce a second barcode that is specific to each well of the PCR plate. (v) Amplicons are pooled and subjected to massively parallel sequencing, resulting in 3′-tag digital gene expression profiles, with each read associated with two barcodes corresponding to the first and second rounds of cellular indexing. In a variant of the method described below, we introduce a third round of cellular indexing during Tn5 transposition of double-stranded cDNA. Most cells pass through a unique combination of wells, resulting in a unique combination of barcodes for each cell that tags its transcripts. The rate of two or more cells receiving the same combination of barcodes can be tuned by adjusting how many cells are distributed to the second set of wells. Increasing the number of barcodes used during each round of indexing boosts the number of cells that can be profiled while reducing the effective cost per cell. Additional levels of indexing can potentially offer even greater complexity and lower costs. Multiple samples (e.g., from different cell populations, tissues, individuals, time points, perturbations, or replicates) can be concurrently processed in one experiment, using different subsets of wells for each sample during the first round of indexing.
 
 - For questions about sciRNAseq, contact: [Dana L Jackson](mailto:danaj77@uw.edu)
@@ -68,7 +68,7 @@ Cells are fixed and permeabilized with methanol (alternatively, cells are lysed 
 
 ## HuBMAP Metadata
 
-### *Definition of Metadata Levels*
+### Definition of Metadata Levels
 
 -   Level 1: These are attributes that are common to all assays, for example, the type (“CODEX”) and category of assay (“imaging”), a timestamp, and the name of the person who executed the assay.
     
@@ -78,10 +78,10 @@ Cells are fixed and permeabilized with methanol (alternatively, cells are lysed 
     
 -   Level 4: This is information that might be unique to a lab or is not required for reproducibility or is otherwise not relevant for outside groups. This information is submitted in the form of a single file, a ZIP archive containing multiple files, or a directory of files. There is no formatting requirement (although formats readable with common tools such as text editors are preferable over proprietary binary formats).
     
-### *Single Cell - specific Metadata Fields*
+### Single Cell - specific Metadata Fields
 This metadata field schema now resides in [Github](https://github.com/hubmapconsortium/ingest-validation-tools/tree/master/docs/scrnaseq) where it can be viewed and downloaded.
 
-### *Bulk RNA seq - specific Metadata Fields*
+### Bulk RNA seq - specific Metadata Fields
 This metadata field schema now resides in [Github](https://github.com/hubmapconsortium/ingest-validation-tools/tree/master/docs/bulkrnaseq) for download.
 
 ## HuBMAP Single-cell Sequence Raw File Structure
@@ -121,7 +121,7 @@ Figure 6: Plot of per sequence base quality [(Figure from Babraham Bioinformatic
 |  0 |>20 (accuracy rate 99%)| FastQC|
 |  contamination_of_primers_and_adapters_in_sequencing_data || Library specific data on adapters need to be provided to the read-trimming tool like trimmomatic *(Bioinformatics. 2014 Aug 1; 30(15):2114-20.).*|
 
-### *Definition*
+### Definition
 Base quality scores: prediction of the probability of an error in base calling
 
 ### GC content: Percentage of bases that are either guanine (G) or cytosine (C)
@@ -129,7 +129,7 @@ Base quality scores: prediction of the probability of an error in base calling
 ### K-mer overrepresentation 
 Overrepresented k-mer sequences in a sequencing library
 
-### *Library-level Alignment QC*
+### Library-level Alignment QC
 Note that this is not per-cell. Trimmed reads are mapped to reference genome.
 
 |**qc_metric** |  **Threshold**| **Method** | 
@@ -140,13 +140,13 @@ Note that this is not per-cell. Trimmed reads are mapped to reference genome.
 |  gc_bias |Biased if variance of GC content is larger than 95% of confidence threshold of the baseline variance| SAMtools/Picard|
 |  library_complexity |NRF>0.9, PBC1>0.9, and PBC2>3| https://www.encodeproject.org/data-standards/terms/#library|
 
-### *Uniquely mapping %* –
+### Uniquely mapping % –
 Percentage of reads that map to exactly one location within the reference genome.
 
-### *Duplicated reads %* - 
+### Duplicated reads % - 
 Percentage of reads that map to the same genomic position and have the same unique molecular identifier (Encode)
 
-### *Post-alignment processing QC:* 
+### Post-alignment processing QC: 
 (see Per cell QC metrics table below)
 
 -   Remove duplicated reads

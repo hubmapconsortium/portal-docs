@@ -17,7 +17,7 @@ The HuBMAP project provides data to the public in a variety of data states, whic
 | 1 | Aligned data: SAM files contain sequence data that has been aligned to a reference genome and includes chromosome coordinates. BAM files are compressed binary versions of SAM files |  SAM, BAM|
 | 2 |  Mutations: Variant call format (VCF). |  .vcf|
 
-## **HuBMAP Metadata:** 
+## HuBMAP Metadata: 
 -   Level 1: These are attributes that are common to all assays, for example, the type (“CODEX”) and category of assay (“imaging”), a timestamp, and the name of the person who executed the assay.
     
 -   Level 2: These are attributes that are common to a category of HuBMAP assays, i.e. imaging, sequencing, or mass spectrometry. For example, for imaging assays this includes fields such as x resolution and y resolution.

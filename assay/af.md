@@ -1,14 +1,14 @@
-# **HuBMAP Autofluorescence Microscopy (AF)**
+# HuBMAP Autofluorescence Microscopy (AF)
 
-### **Last Updated:** 6/15/2020
+### Last Updated: 6/15/2020
 
-## **Overview:** 
+## Overview: 
 This document details AF data states, metadata fields, file structure, QA/QC thresholds, and data processing.
 
-## **Description:** 
+## Description: 
 Autofluorescence microscopy exploits endogenous fluorescence in a biological tissue to capture an image. The image can then be used to integrate other images from multiple modalities and to align tissues within a 3D experiment. Autofluorescence microscopy requires no sample preparation and can be performed on any fluorescence microscope.
 
-## **Definitions:** 
+## Definitions: 
 There are a variety of terms used in this document that may not be familiar to all researchers wanting to make use of the HubMap data. The following figures illustrate several of these terms:
 
 ![](https://lh5.googleusercontent.com/kcmAgdCFNvzfAfvkE6qeRig2kb-CQmAfMILcjgSpZyblhGc4lKbj95zEolUEuwiHXO_UPPTFXPWdQvVvi7iWJAsuE-6EhPf9Le35gePMlgIfJpiaskBXqzKWi3xhBkaoWEsrJebu)    
@@ -24,7 +24,7 @@ Because the field of view cannot be changed, tiles will overhang from the region
 ![](https://lh4.googleusercontent.com/dCpsoJuhwEyIXqjw10JuURnYnVrDfpuKtk7kEOQkjfIZuFa3Vv6f4xllekDUlzzDlhd0pHfBt5vAObpY-BWglpGFRZGG4cNUJILSAFOiWrF-HYWnVpGy-2SAkDuMnzaS6dwGiB9t)
 *Figure 4: Stitching is the process of aligning and merging neighboring image tiles into a single composite image.*
 
-## **HuBMAP AF Data States (Levels):**
+## HuBMAP AF Data States (Levels):
 |**Data State** |  **Description**| **Example File Type** | 
 |--|--|--|
 |  0 | Raw image data: This is the data that comes directly off the microscope without preprocessing; sometimes referred to as tiled or unstitched data. (may not always be included).| CZI, TIFF|
@@ -32,10 +32,10 @@ Because the field of view cannot be changed, tiles will overhang from the region
 | 2 |  Segmentation: Computationally predicted cell (nucleus, cytoplasm) and/or structural boundaries (tubules, ventricles, etc.) |  CSV, TIFF|
 | 3 |  Annotation (Cells and Structures): Interpretation of microscopy image and/or segmentation in terms of biology (e.g. unhealthy vs healthy, cell-type, function, functional region). |  TIFF, PNG|
 
-## **HuBMAP Metadata:** 
+## HuBMAP Metadata: 
 This metadata schema is now available in [Github](https://github.com/hubmapconsortium/ingest-validation-tools/tree/master/docs/af) for download.
 
-## **Associated Metadata files:**
+## Associated Metadata files:
 |**Metadata File Name** |  **File Type**| **Field** | **Definition**|
 |--|--|--|--|
 |  OME-TIFF | OME-TIFF| SchemaType|Metadata schema type|
@@ -84,7 +84,7 @@ This metadata schema is now available in [Github](https://github.com/hubmapconso
 |  | | tissue_object_size_z|Size of the z-dimension of the tissue sample|
 |  | | section_number|Tissue Section number. Each section is 10µm thick.|
 
-## **Terms defined in this document:**
+## Terms defined in this document:
 |**Term** |  **Definition**|
 |--|--|
 |  Intensity| Detector Counts| 
@@ -105,5 +105,5 @@ This metadata schema is now available in [Github](https://github.com/hubmapconso
 | Pixel| How close two objects can be and still be differentiated within an image. This is generally dependent upon the diffraction limit of light and the microscope objective.| 
 | Field of View| Angle through which light can reach the detector. Available imaging area without stage movement.| 
 
-## **For Additional Help:**  
+## For Additional Help:  
 Please contact:  [Jeffrey Spraggins](mailto:jeff.spraggins@Vanderbilt.Edu) 
