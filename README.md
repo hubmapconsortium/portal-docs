@@ -9,6 +9,4 @@ On the regular release schedule:
   - deployed to DEV/TEST/STAGE Monday after 5pm,
   - and, if QA passes, on production by Tuesday afternoon.
 
-When these changes will be deployed to production is TBD.
-
 This is the default: If something needs to be out faster, we can make it happen.
