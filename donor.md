@@ -195,3 +195,52 @@ Examples.
 
 ### `more`
 There are additional concepts to be added to the data and documented here.
+
+| Pref_Term | CUI | CodeID | Term | Display_pref_term
+| --- | --- | --- | --- | --- |
+| Age | C0001779 | SNOMEDCT_US 424144002 | Current chronological age (observable entity) | Age |
+| Body mass index | C1305855 | SNOMEDCT_US 60621009 | Body mass index (observable entity) | Body mass index |
+| sex | C1522384 | SNOMEDCT_US 57312000 | Sex structure (body structure) | Sex |
+| Females | C0086287 | SNOMEDCT_US 1086007 | Female structure (body strucutre) | Female |
+| Males | C0086582 | SNOMEDCT_US 10052007 | Male structure | Male |
+| Racial group | C0034510 | SNOMEDCT_US 415229000 | Racial group (racial group) | Race |
+| African race | C0027567 | SNOMEDCT_US 413464008 | African race (racial group) | Black or African |
+| Caucaoid Race | C0007457 | SNOMEDCT_US 413773004 | Caucasian (racial group) | White |
+| Blood typing procedure | C0005844 | SNOMEDCT_US 44608003 | Blood group typing (procedure) | Blood type |
+| Blood group A (finding) | C0427620 | SNOMEDCT_US 112144000 | Blood group A (finding) | A |
+| Blood group AB | C0427624 | SNOMEDCT_US 165743006 | Blood group AB (finding) | AB |
+| Blood group B (finding) | C0427623 | SNOMEDCT_US 112149005 | Blood group B (finding)) | B |
+| Blood group O (finding) | C0427625 | SNOMEDCT_US 58460004 | Blood group O (finding) | O |
+| Rh blood group typing procedure | C0430279 | SNOMEDCT_US 363783003 | CRh blood group typing (procedure) | Rh factor |
+| RhD negative | C4551754 | SNOMEDCT_US 165746003 | RhD negative (fiding) | Negative |
+| RhD positive  | C4551753 | SNOMEDCT_US 165747007 | RhD positive (fiding) | Positive |
+| Body Height | C0005890 | SNOMEDCT_US 50373000 | Body height measure (observable entity) | Height |
+| Body Weight | C0005910 | SNOMEDCT_US 27113001 | Body weight (observable entity) | Weight |
+| Kidney Donor Profile Index Clinical Classification  | C4330523 | NCI C130310 | Kidney Donor Profile Index Clinical Classification) | Kidney donor profile index |
+| Cause of Death | C0007465 | SNOMEDCT_US 184305005 | Cause of death (observable entity) | Cause of death |
+| Mechanism of injury | C0449413 | SNOMEDCT_US 246078001 | Mechanism of injury (attribute) | Mechanism of injury |
+| Cessation of life | C0011065 | SNOMEDCT_US 419620001 | Death (event) | Death |
+| Natural death | C0277610 | SNOMEDCT_US 38605008 | Natural death (event) | Natural causes |
+| Cardiac Arrest | C0018790 | SNOMEDCT_US 410429000 | Cardiac arrest (disorder)| Cardiac arrest |
+| Medical History | C0262926 | SNOMEDCT_US 392521001 | History of (contextual qualifier) | Medical history |
+| Social and personal history | C0424945 | SNOMEDCT_US 160476009 | Social / personal history observable (observable entity) | Social history |
+| Diabetes Mellitus | C0011849 | SNOMEDCT_US 73211009 | Diabetes mellitus (disorder)| Diabetes |
+|  Malignant Neoplasms | C0006826 | SNOMEDCT_US 363346000 | Malignant neoplastic disease (disorder) | Cancer |
+| Hypertensiv disease | C0020538 | SNOMEDCT_US 38341003 | Hypertensive disorder, systemic arterial (disorder)  | Hypertension |
+| Coronary Artery Disease | C1956346 | SNOMEDCT_US 53741008 | Coronary arteriosclerosis (disorder) | Coronary artery disease |
+| Gastrointestinal Diseases | C0017178 | SNOMEDCT_US 53619000 | CDisorder of digestive system (disorder) | Gastorintestina disease |
+| Thoracic Injuries | C0039980 | SNOMEDCT_US 262525000 | Chest injury (disorder) | Chest trauma |
+| Smoker | C0337664 | SNOMEDCT_US 77176002 | Smoker (finding) | Smoker |
+| Alcoholic Intoxication | C0001969 | SNOMEDCT_US 25702006 | Alcohol intoxication (disorder) | Heavy drinker |
+| Intravenous drug user | C0242566 | SNOMEDCT_US 228388006 | Intravenous drug user (finding)) | Intravenous drug user |
+| Cerebrovascular accident | C0038454 | SNOMEDCT_US 230690007 | Cerebrovascular accident (disorder) | Cerebrovascular accident |
+| Intracranial Hemorrhage | C0151699 | SNOMEDCT_US 1386000 | Intracranial hemorrhage (disorder) | Intracranial hemorrhage |
+| Anoxia | C0003130 | SNOMEDCT_US 29658002 | Oxygen supply absent (finding) | Anoxia |
+| Asphyxia | C0004044 | SNOMEDCT_US 66466001 | Asphyxiation (event) | Asphyxiation |
+| Addisonian crisis | C0151467 | SNOMEDCT_US 766986002 | Acute adrenal insufficiency (disorder) | Addisonian crisis |
+| Drug toxicity | C0013221 | SNOMEDCT_US 7895008 | Poisoning caused by drug AND/OR medicinal substance| Drug intoxication |
+| Exposure to inanimate mechanical force | C0337242 | SNOMEDCT_US 88817006 | Exposure to inanimate mechanical force (event) | Accident |
+| Suicide | C0038661 | SNOMEDCT_US 44301001 | Suicide (event) | Suicide |
+| Craniocerebral Trauma | C0018674 | SNOMEDCT_US 82271004 | Injury of head (disorder) | Head trauma |
+| Nonpenetrating Wounds | C0043253 | SNOMEDCT_US 425359009 | Blunt injury (disorder) | Blunt injury |
+| Motor vehicle accident | C2939181| SNOMEDCT_US 418399005 | Motor vehicle accident (event) | Motor vehicle accident |
