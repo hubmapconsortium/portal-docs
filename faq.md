@@ -2,7 +2,8 @@
 
 ## General Questions
 
-### What is HuBMAP & what are its goals?
+<details>
+<summary>What is HuBMAP & what are its goals?</summary>
 
 Better insights into the principles governing tissue organization-function relationship will potentially lead to better understanding of the significance of normal inter-individual variability and changes across the lifespan, and inform about the emergence of disease at the biomolecular level before the appearance of clinical symptoms. Despite vastly improved imaging and omics technologies and many important foundational discoveries, our understanding of how tissues are organized is restricted by remaining main challenges: 1) integrating high content, high resolution spatial and omics information to comprehensively profile biomolecular distribution and morphology of tissues in a high throughput manner and 2) placing this information into 3D tissue maps amenable to modelling.
 
@@ -18,9 +19,11 @@ The vision for the Human BioMolecular Atlas Program (HuBMAP) is to catalyze the 
 
 See also a video [HuBMAP Overview](https://www.youtube.com/watch?v=yCh4XnD7rEE). For a more in depth understanding, read the [HuBMAP marker paper](https://www.nature.com/articles/s41586-019-1629-x), or see a course on HuBMAP data acquisition, analysis, and visualization, The [Visible Human MOOoC](https://expand.iu.edu/browse/sice/cns/courses/hubmap-visible-human-mooc)
 
-Stay in touch by subscribing [to our mailing list](https://hubmapconsortium.org/hubmap-mailing-list) and our [YouTube channel](https://www.youtube.com/channel/UCbSvPJ9dXASL14KoDeutMFg). 
+Stay in touch by subscribing [to our mailing list](https://hubmapconsortium.org/hubmap-mailing-list) and our [YouTube channel](https://www.youtube.com/channel/UCbSvPJ9dXASL14KoDeutMFg).
 
-### Who are the intended users of HuBMAP resources?
+</details>
+
+<details><summary>Who are the intended users of HuBMAP resources?</summary>
 
 Generating foundational 3D human tissue maps is one of the core goals of HuBMAP. HuBMAP projects will generate high resolution, high content, high-throughput biomolecular 3D tissue maps of non-diseased human organs and organ systems. For HuBMAP, a high-resolution assay is one that can reliably and reproducibly assign detected biomolecules to individual cells or extracellular compartments of a tissue. A high content approach is one that maximizes identification of tissue features through a combination of biomolecular depth, spatial resolution and multiplexing of complementary, multi-parameter assays. A high throughput pipeline is one that maximizes the bandwidth of data production to result in any or all of the following: 1) accelerated speed of analysis, so that hundreds or thousands of samples can be analyzed simultaneously, 2) greater depth of analysis, so that hundreds or thousands of molecules can be analyzed in a single sample, or 3) enhanced capacity for volume, so that a given set of molecules can be analyzed in all the cells within a larger tissue sample.
 
@@ -33,11 +36,15 @@ The HuBMAP rich datasets and associated resources are intended for broad use by 
 - Educators developing new teaching materials
 - Technology developers interested in developing new assys with enhanced performance 
 
-### How does HuBMAP fit into the ecosystem of other single cell efforts within and outside the NIH? 
+</details>
+
+<details><summary>How does HuBMAP fit into the ecosystem of other single cell efforts within and outside the NIH? </summary>
 
 HuBMAP is part of a rich ecosystem of established and emerging atlasing programs supported by NIH and globally by other funding organizations, many of which are focused on specific organs or diseases. HuBMAP has connected with these programs to ensure data interoperability, avoid duplication of work, and leverage and synergize gained knowledge. The consortium has organized a number of events to bring together these communities to discuss topics of shared interest (e.g. [CCF meeting, NIH-HCA meeting](https://hubmapconsortium.org/nihhca2020/)) and is committed to improving coordination and collaboration among different programs. In addition, many of the HuBMAP PIs had been or are still actively participating in these efforts, helping with cross-pollination and advancing our global understanding. 
 
 HuBMAP, as its name implies, was specifically initiated to resolve the challenge of building integrated, comprehensive, high-resolution spatial maps of human tissues and organs, which has resulted in HuBMAP providing leadership in the ecosystem around techniques for integrating disparate, multi-dimensional and multi-scale datasets, the development of a Common Coordinate Framework (CCF) for integrating data across many individuals, and the development and validation of these assays. To further increase interoperability, HuBMAP has adopted a number of standards and processes developed by other domain expert consortia, working  and is actively involved in the knowledge exchange. The consortium sees itself as an integral part of the ecosystem, sharing its strengths and actively contributing to the community.
+
+</details>
 
 ## Introduction to HuBMAP resources
 
@@ -47,14 +54,16 @@ The [Visible Human MOOC](https://expand.iu.edu/browse/sice/cns/courses/hubmap-vi
 
 Below are some FAQ to get you started.
 
-### Can I use HuBMAP data for my own research? 
+<details><summary>Can I use HuBMAP data for my own research? </summary>
 
 Yes, please follow the guidelines outlined in the [HuBMAP External Data Sharing Policy.](https://hubmapconsortium.org/policies/external-data-sharing-policy/) 
 Access to NIH HuBMAP data is guided by the [NIH Genomic Data Sharing policy.](https://osp.od.nih.gov/scientific-sharing/genomic-data-sharing/) 
 
 If you use NIH HuBMAP data in publications or presentations we request that you include an acknowledgement of the HuBMAP Program. This acknowledgement helps justify and sustain the funding needed to continue providing open access to a growing amount of data and tools. Suggested language for such an acknowledgment is: “The results <published or shown> here are in whole or part based upon data generated by the HuBMAP Program: https://hubmapconsortium.org."
 
-### Can I use your data for another project that I am working on?
+</details>
+
+<details><summary>Can I use your data for another project that I am working on?</summary>
 
 Yes! We provide raw and processed (at multiple levels) data for the community to access through our [portal.](https://portal.hubmapconsortium.org) 
 
@@ -62,7 +71,9 @@ The products of HuBMAP will be made broadly available to the research community 
 
 To acknowledge HuBMAP in your findings, see “Can I use HuBMAP data for my own research?”. 
 
-### Can I submit my own data to HuBMAP? Why would I want to submit data to HuBMAP? 
+</details>
+
+<details><summary>Can I submit my own data to HuBMAP? Why would I want to submit data to HuBMAP? </summary>
 
 Yes, HuBMAP aims to allow investigators  to submit their own data via the HuBMAP Portal. Why share?  Having your own data on HuBMAP will allow other researchers access to your results and provide additional resources for creating cellular and molecular level anatomical maps of the healthy human. In this way others may extend and interact with your scientific work.
 
@@ -70,38 +81,54 @@ We also encourage the community to provide feedback about HuBMAP dataset metadat
 
 One of the first tools we will enable in the near future will let the users annotate cell-types in their own data based on HuBMAP approaches. 
 
-### Can I add my own tools to HuBMAP portal? Why would I want to submit my tools to HuBMAP? How do I point users to the new tool I built and added to HuBMAP?
+</details>
+
+<details><summary>Can I add my own tools to HuBMAP portal? Why would I want to submit my tools to HuBMAP? How do I point users to the new tool I built and added to HuBMAP?</summary>
 
 HuBMAP seeks to host relevant tools and we welcome community input to help with feature prioritization and development for the HuBMAP Portal. Adding your Tools to the HuBMAP Portal will help you get others to use your tools and provide feedback to improve the scientific impact of your work.
 
 For instance, very efficient software/statistical environments that would enable the community to deploy their own visualization tools especially for secondary analysis may exist already and could be added. We would invite you to comment whether it would be desirable for HuBMAP to provide facile access to data through API and/or downloads in enabling formats.
 
-### What kind of information is included in HuBMAP’s first data release? 
+</details>
+
+<details><summary>What kind of information is included in HuBMAP’s first data release? </summary>
 
 The first release contains donor, tissue sample, and assay data & metadata for the following organs: heart, kidney, large intestine, lymph node, small intestine, spleen, and thymus. For additional information, please see [donor, tissue sample, and assay metadata](https://portal.hubmapconsortium.org/docs/metadata) as well as [assay details.](https://portal.hubmapconsortium.org/docs/assays)
 
-### What data modalities are covered in this first release? 
+</details>
+
+<details><summary>What data modalities are covered in this first release? </summary>
 
 Microscopy, Mass Spectrometry, and Sequencing data are available in the initial HuBMAP data release.  Several assay types are available for each modality. 
 More information can be found on the [list of available HuBMAP Assays.](https://portal.hubmapconsortium.org/docs/assays)
 
-### What metadata is included in HuBMAP? Will HuBMAP include additional metadata in future releases?
+</details>
+
+<details><summary>What metadata is included in HuBMAP? Will HuBMAP include additional metadata in future releases?</summary>
 
 HuBMAP contains [donor metadata, sample metadata, and assay metadata.](https://portal.hubmapconsortium.org/docs/metadata) In the future, metadata will be linked to various ontologies to make integration more efficient.
 
-### What controlled vocabularies or ontologies are being used by HuBMAP? 
+</details>
+
+<details><summary>What controlled vocabularies or ontologies are being used by HuBMAP? </summary>
 
 Each donor metadata item uses Unified Medical Language System (UMLS) Concept Unique Identifiers (CUIs) and related SNOMEDCT_US codes with [complete list here.](https://portal.hubmapconsortium.org/docs/donor#more) This list will be expanded as clinical data transactions, not just metadata, are added for donors for which data is available. Similarly the other metadata will be encoded with applicable ontologies. The HuBMAP Knowledge Graph underpins all ontologies used in HuBMAP but is not yet deployed. The current CCF ontology uses Uberon, Kidney Tissue Atlas Ontology (KTAO) and Cell Ontology (CL), see details in https://arxiv.org/abs/2007.14474 
 
-### How do I get started with using the portal? 
+</details>
+
+<details><summary>How do I get started with using the portal? </summary>
 
 You can read an overview of the Portal at hubmapconsortium.org/hubmap-data/. The Portal is available at [portal.hubmapconsortium.org](portal.hubmapconsortium.org) and also includes documentation and a FAQ. 
 
-### How can I learn more about HuBMAP data acquisition, analysis and visualization tools? 
+</details>
+
+<details><summary>How can I learn more about HuBMAP data acquisition, analysis and visualization tools? </summary>
 
 The [Visible Human MOOC](https://expand.iu.edu/browse/sice/cns/courses/hubmap-visible-human-mooc) provides an overview of HuBMAP and first introduction to data acquisition, analysis, and visualization. 
 
-### What do I need to do to gain access to data? How can I download data? How do I get approval to access raw genetic data? 
+</details>
+
+<details><summary>What do I need to do to gain access to data? How can I download data? How do I get approval to access raw genetic data? </summary>
 
 Access to the data portal is open to all interested viewers, without additional barriers (account creation, login, etc.) at portal.hubmapconsortium.org. 
 
@@ -109,15 +136,21 @@ Those interested in downloading available data will need to create an account wi
 
 Those interested in downloading potentially re-identifiable data must… (insert this process when available). Downloads of these data sets require NIH approval and are therefore not anonymous. 
 
-### How does HuBMAP curate and validate metadata? 
+</details>
+
+<details><summary>How does HuBMAP curate and validate metadata? </summary>
 
 HuBMAP Investigators are provided with a Github link to an assay-specific metadata template they can download, complete, and save as a TSV file. The completed metadata form is then sent to a HuBMAP Curator who runs a validation script to confirm all required fields are populated with the appropriate information in the syntactically correct format.  Corrections are made if necessary and the HuBMAP team uploads the metadata.tsv and aligns it with the corresponding data. In the future, semantic validation through the use of ontological annotations will be supported where possible.
 
-### Can I sign up to be notified of data releases? 
+</details>
+
+<details><summary>Can I sign up to be notified of data releases? </summary>
 
 You can sign up for our mailing list at https://hubmapconsortium.org/hubmap-mailing-list/.  Once you do, we’ll keep you informed on everything that is happening in HuBMAP, including future data releases.
 
-### What will HubMAP include in future releases? Will HuBMAP include additional tissues in future releases? 
+</details>
+
+<details><summary>What will HubMAP include in future releases? Will HuBMAP include additional tissues in future releases? </summary>
 
 Future data releases will include items such as:
 - New Assay Data
@@ -137,21 +170,29 @@ Future data releases will include items such as:
 
 For the next release, we currently have integrative analyses, additional spatial information for select organs (CCF), and submission of investigator data.
 
-### Is there a “MAP” in HuBMAP data release? 
+</details>
+
+<details><summary>Is there a “MAP” in HuBMAP data release? </summary>
 
 The HuBMAP map is three-dimensional (3D) to capture the 3D context of single-cells and anatomical structures. The first portal release features a 3D Visible Human common coordinate system (CCF) with two organs: kidney and spleen.  A total of 116 samples from 27 donors provided by two Tissue Mapping Centers (TMCs) have been registered (or mapped) into this spatially and semantically explicit reference system. Use the [CCF Exploration User Interface](https://portal.hubmapconsortium.org/ccf-eui) to explore data spatially and semantically. Watch a short video introduction [here.](https://www.youtube.com/watch?v=DDmP_7vDy-o) 
 
-### Can I make HuBMAP data available through my resource? 
+</details>
+
+<details><summary>Can I make HuBMAP data available through my resource? </summary>
 
 You can use HuBMAP data for any purposes permitted by the Data Sharing Policy: https://hubmapconsortium.org/policies/external-data-sharing-policy/.
  
 The CCF 3D Reference Object Library provides anatomically correct reference organs. The organs are developed by a specialist in 3D medical illustration and approved by organ experts, see details [here.](https://hubmapconsortium.github.io/ccf/pages/ccf-3d-reference-library.html) Included in the 1st release are 10 organ objects that can be freely used in teaching, research, or commercial applications.
 
-### Where should  I report any errors / make suggestions for new portal features or functionality / ask more questions about using the portal? 
+</details>
+
+<details><summary>Where should  I report any errors / make suggestions for new portal features or functionality / ask more questions about using the portal? </summary>
 
 We welcome your comments and your help to identify errors and define priorities for future portal releases. You can provide error reports, make suggestions, or ask questions through this form: hubmapconsortium.org/contact-form  
 
-### How would I cite and reference HuBMAP data and code? 
+</details>
+
+<details><summary>How would I cite and reference HuBMAP data and code? </summary>
 
 To acknowledge HuBMAP data in publications or presentations, we suggest: “The results <published or shown> here are in whole or part based upon data generated by the HuBMAP Program: https://hubmapconsortium.org."
   
@@ -161,57 +202,83 @@ The HuBMAP marker paper should be cited as:
 The Visible Human reference organs are freely available via the CCF 3D Reference Object Library. Please cite as:
 - Browne K, Cross LE, Herr, II BW, Record EG, Quardokus EM, Bueckle A, Börner K. 2020. [HuBMAP CCF 3D Reference Object Library.](https://hubmapconsortium.github.io/ccf/pages/ccf-3d-reference-library.html) 
 
-### Can I use figures from HuBMAP in my publications? 
+</details>
+
+<details><summary>Can I use figures from HuBMAP in my publications? </summary>
 
 Yes, as long as you cite the source of the figure.
 
-### Do you track my activities on your portal? 
+</details>
+
+<details><summary>Do you track my activities on your portal? </summary>
 
 Yes, interactions with the site are recorded in server logs and on Google Analytics and are mapped to your IP address. In that regard the HuBMAP portal is no different from the rest of the internet.
 
-### What web-browsers are supported in the portal? 
+</details>
+
+<details><summary>What web-browsers are supported in the portal? </summary>
 
 All modern, mainstream browsers are supported (i.e. Chrome, Edge, Firefox, Safari, etc.).
 
-### How can I run queries? What type queries are currently supported? Do you support saving my prior queries? Can you show me examples of queries run by others? 
+</details>
+
+<details><summary>How can I run queries? What type queries are currently supported? Do you support saving my prior queries? Can you show me examples of queries run by others? </summary>
 
 At this time, data is accessed solely through the HuBMAP portal and its visualization tools. The consortium is working on indexing genomics data to support queries in a future release.
 
-### Can I suggest types of queries I am interested in? 
+</details>
+
+<details><summary>Can I suggest types of queries I am interested in? </summary>
 
 We are always happy to hear suggestions for additions and improvements. Please make any suggestions you have via the form at https://hubmapconsortium.org/contact-form.
 
-### Do you support an API for programmatic access? 
+</details>
+
+<details><summary>Do you support an API for programmatic access? </summary>
 
 The HuBMAP portal is built using an extensible API structure that supports all component interactions. APIs are being registered in [SmartAPI](https://smart-api.info/registry?q=hubmap).  For external access to APIs, please submit a request to help@hubmapconsortium.org.
 
-### What are the current features of the API? 
+</details>
+
+<details><summary>What are the current features of the API? </summary>
 
 The HuBMAP APIs underpin all provenance, data access, processing, translation, search and access controls. The APIs also report the versions and uptime statuses of all the Docker containers that constitute HuBMAP’s microservices orchestration architecture.
 
-### What are the expectations about future API features? 
+</details>
+
+<details><summary>What are the expectations about future API features? </summary>
 
 APIs are extensible and are expected to be expanded to progressively. The next major set of APIs will deliver the underpinning transactions needed for semantic search.
 
-### What are the licensing requirements to use this data? 
+</details>
+
+<details><summary>What are the licensing requirements to use this data? </summary>
 
 The CCF 3D Reference Object Library was released under [Attribution 4.0 International (CC BY 4.0).](https://creativecommons.org/licenses/by/4.0/)
 
-### What are the licensing requirements to use any of the software? Where is the software? 
+</details>
+
+<details><summary>What are the licensing requirements to use any of the software? Where is the software? </summary>
 
 Most of the software implemented for HuBMAP is licensed under the [MIT License](https://en.wikipedia.org/wiki/MIT_License) or [GPL v3 License.](https://www.gnu.org/licenses/gpl-3.0.en.html) All source code is on GitHub at https://github.com/hubmapconsortium/. A few source code repositories have different open source licensing, which you can verify by viewing the LICENSE file in the respective repository.
 
-### What are the licensing requirements to use any of the APIs?
+</details>
+
+<details><summary>What are the licensing requirements to use any of the APIs?</summary>
 
 The HuBMAP APIs are released under [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/) as is SmartAPI.
 
-### How do you plan to handle error fixes and updates? Will I be notified of these? 
+</details>
+
+<details><summary>How do you plan to handle error fixes and updates? Will I be notified of these? </summary>
 
 You can submit a bug or request a new feature in the Data Portal through the form at https://hubmapconsortium.org/contact-form/. To be sure you are up-to-date on all HuBMAP news, including updates to the Data Portal, sign up for the mailing list at https://hubmapconsortium.org/hubmap-mailing-list.
 
+</details>
+
 ## Experimental Design & Data Analysis Questions
 
-### Where can I find information about experimental design associated with HuBMAP data? 
+<details><summary>Where can I find information about experimental design associated with HuBMAP data? </summary>
 
 An overview of the Information on the experimental design and choice of modalities can be found within this reference:
 - Snyder, M.P., Lin, S., Posgai, A. et al. The human body at cellular resolution: the NIH Human Biomolecular Atlas Program. Nature 574, 187–192 (2019). https://doi.org/10.1038/s41586-019-1629-x ([PMC6800388](http://www.ncbi.nlm.nih.gov/pmc/articles/pmc6800388/))
@@ -230,11 +297,15 @@ Overview: https://www.protocols.io/view/vu-biomolecular-multimodal-imaging-cente
 UCSD:
 https://www.protocols.io/view/human-kidney-urinary-tract-and-lung-cell-type-mapp-bj9wkr7e
 
-### Where can I find information about HuBMAP experimental protocols? 
+</details>
+
+<details><summary>Where can I find information about HuBMAP experimental protocols? </summary>
 
 All published protocols that are used in HuBMAP are available on protocols.io here: https://www.protocols.io/groups/human-biomolecular-atlas-program-hubmap-method-development.
 
-### How do you define raw and processed data? 
+</details>
+
+<details><summary>How do you define raw and processed data? </summary>
 
 We define raw data as the data that comes directly off of the instrument (e.g. mass spectrometer, microscopy, etc.), while processed data has been transformed in some manner (e.g. normalization, background subtracted, aligned, etc.) and the level of processing is defined by the data state as detailed below. Data states are dependent upon the modality. In general, data state 0 (raw data) and state 1 (processed data) are available on the portal for downloading. 
 
@@ -261,7 +332,9 @@ Sequencing:
 | 0 | Raw data: This is the raw sequence data (unprocessed) generated directly by the sequence instrument in files either with Phred quality scores (fastq). | FASTQ |
 | 1 | Aligned data: SAM files contain sequence data that has been aligned to a reference genome and includes chromosome coordinates. BAM files are compressed binary versions of SAM files. The reference genome used is hg38.| SAM, BAM|
 
-### In what formats is your data available? 
+</details>
+
+<details><summary>In what formats is your data available? </summary>
 
 Imaging based raw or processed data is available as TIFF or OME.TIFF formats. Segmented imaging data is generated as csv and TIFF formats. Annotated imaging data is TIFF, PNG and PDF.
 
@@ -269,35 +342,49 @@ Raw sequence data is provided as fastq and metadata via tsv.
 
 Imaging mass spectrometry raw data is provided as is a .d and processed data is imzml, or a csv and a series of ome-tiffs.
 
-### Can I get the code that you used to process data? 
+</details>
+
+<details><summary>Can I get the code that you used to process data? </summary>
 
 All available code can be found on the HuBMAP github page (https://github.com/hubmapconsortium).
 
-### Are there recommended tools for handling large amounts of data from HuBMAP? 
+</details>
+
+<details><summary>Are there recommended tools for handling large amounts of data from HuBMAP? </summary>
 
 Answer coming soon.
 
-### Can I find an explanation for the choice of HuBMAP pipelines and algorithms? 
+</details>
+
+<details><summary>Can I find an explanation for the choice of HuBMAP pipelines and algorithms? </summary>
 
 Brief descriptions of the HuBMAP data analysis pipelines are available through the portal at  https://portal.hubmapconsortium.org/docs/pipelines. All code made available to users can be found on the HuBMAP github page (https://github.com/hubmapconsortium).
 
-### Which samples should I consider to be technical replicates? 
+</details>
+
+<details><summary>Which samples should I consider to be technical replicates? </summary>
 
 Technical replicates are repeated measurements of the same existing sample. As even serial tissue sections represent distinct samples, we do not consider any images of tissues to be technical replicates. 
 
 Technical replicates for sequencing assays would be any sequencing libraries generated from the same sample or aliquot of cells or nuclei.
 
-### Which samples should I consider to be biological replicates? 
+</details>
+
+<details><summary>Which samples should I consider to be biological replicates? </summary>
 
 Biological replicates are datasets from samples that originate from the same organ and organ donor. As such, each dataset within the HuBMAP database that is provided for a given donor organ for a comparable anatomical region/structure would be a biological replicate. 
 
-### How are each organ/tissue handled to maintain high reproducibility and validity for the assay? 
+</details>
+
+<details><summary>How are each organ/tissue handled to maintain high reproducibility and validity for the assay? </summary>
 
 Protocols.io detailed processing with QA/QC
 
 [Human BioMolecular Atlas Program (HuBMAP) Method Development Community timeline](https://www.protocols.io/workspaces/human-biomolecular-atlas-program-hubmap-method-development)
 
-### How have antibodies been verified? 
+</details>
+
+<details><summary>How have antibodies been verified? </summary>
 
 For the first data release, all antibodies were validated by individual groups. With the upcoming second data release in 2021, complete antibody information will be available, including antibody clone, vendor, RRID, conjugation information, etc. Additional antibody validation standards will be implemented in subsequent data releases. For the development of our antibody validation levels, we followed the antibody verification guidelines established in the following manuscripts:
 
