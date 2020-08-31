@@ -118,7 +118,7 @@ Each donor metadata item uses Unified Medical Language System (UMLS) Concept Uni
 
 <details><summary>How do I get started with using the portal? </summary>
 
-You can read an overview of the Portal at hubmapconsortium.org/hubmap-data/. The Portal is available at [portal.hubmapconsortium.org](portal.hubmapconsortium.org) and also includes documentation and a FAQ. 
+You can read an overview of the Portal at hubmapconsortium.org/hubmap-data/. The Portal is available at [portal.hubmapconsortium.org](/) and also includes documentation and a FAQ. 
 
 </details>
 
