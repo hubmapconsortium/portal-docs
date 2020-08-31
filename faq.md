@@ -118,7 +118,7 @@ Each donor metadata item uses Unified Medical Language System (UMLS) Concept Uni
 
 <details><summary>How do I get started with using the portal? </summary>
 
-You can read an overview of the Portal at hubmapconsortium.org/hubmap-data/. The Portal is available at [portal.hubmapconsortium.org](/) and also includes documentation and a FAQ. 
+The Portal is available at [portal.hubmapconsortium.org](/) and also includes documentation and a FAQ. 
 
 </details>
 
@@ -132,9 +132,7 @@ The [Visible Human MOOC](https://expand.iu.edu/browse/sice/cns/courses/hubmap-vi
 
 Access to the data portal is open to all interested viewers, without additional barriers (account creation, login, etc.) at portal.hubmapconsortium.org. 
 
-Those interested in downloading available data will need to create an account within the data portal. Note that downloads of specific datasets will be anonymous. 
-
-Those interested in downloading potentially re-identifiable data must… (insert this process when available). Downloads of these data sets require NIH approval and are therefore not anonymous. 
+Those interested in downloading available data will need to create an account within the data portal. Note that downloads of specific datasets will be anonymous. Downloads of these data sets require NIH approval and are therefore not anonymous. 
 
 </details>
 
