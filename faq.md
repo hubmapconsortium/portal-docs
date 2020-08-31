@@ -65,7 +65,7 @@ If you use NIH HuBMAP data in publications or presentations we request that you 
 
 <details><summary>Can I use your data for another project that I am working on?</summary>
 
-Yes! We provide raw and processed (at multiple levels) data for the community to access through our [portal.](https://portal.hubmapconsortium.org) 
+Yes! We provide raw and processed (at multiple levels) data for the community to access through our [portal.](/) 
 
 The products of HuBMAP will be made broadly available to the research community to establish the foundations for a human body map that other programs and the international community can build upon, including methods, tools, reagents, biospecimens, datasets, and software.
 
@@ -93,26 +93,26 @@ For instance, very efficient software/statistical environments that would enable
 
 <details><summary>What kind of information is included in HuBMAP’s first data release? </summary>
 
-The first release contains donor, tissue sample, and assay data & metadata for the following organs: heart, kidney, large intestine, lymph node, small intestine, spleen, and thymus. For additional information, please see [donor, tissue sample, and assay metadata](https://portal.hubmapconsortium.org/docs/metadata) as well as [assay details.](https://portal.hubmapconsortium.org/docs/assays)
+The first release contains donor, tissue sample, and assay data & metadata for the following organs: heart, kidney, large intestine, lymph node, small intestine, spleen, and thymus. For additional information, please see [donor, tissue sample, and assay metadata](/docs/metadata) as well as [assay details.](/docs/assays)
 
 </details>
 
 <details><summary>What data modalities are covered in this first release? </summary>
 
 Microscopy, Mass Spectrometry, and Sequencing data are available in the initial HuBMAP data release.  Several assay types are available for each modality. 
-More information can be found on the [list of available HuBMAP Assays.](https://portal.hubmapconsortium.org/docs/assays)
+More information can be found on the [list of available HuBMAP Assays.](/docs/assays)
 
 </details>
 
 <details><summary>What metadata is included in HuBMAP? Will HuBMAP include additional metadata in future releases?</summary>
 
-HuBMAP contains [donor metadata, sample metadata, and assay metadata.](https://portal.hubmapconsortium.org/docs/metadata) In the future, metadata will be linked to various ontologies to make integration more efficient.
+HuBMAP contains [donor metadata, sample metadata, and assay metadata.](/docs/metadata) In the future, metadata will be linked to various ontologies to make integration more efficient.
 
 </details>
 
 <details><summary>What controlled vocabularies or ontologies are being used by HuBMAP? </summary>
 
-Each donor metadata item uses Unified Medical Language System (UMLS) Concept Unique Identifiers (CUIs) and related SNOMEDCT_US codes with [complete list here.](https://portal.hubmapconsortium.org/docs/donor#more) This list will be expanded as clinical data transactions, not just metadata, are added for donors for which data is available. Similarly the other metadata will be encoded with applicable ontologies. The HuBMAP Knowledge Graph underpins all ontologies used in HuBMAP but is not yet deployed. The current CCF ontology uses Uberon, Kidney Tissue Atlas Ontology (KTAO) and Cell Ontology (CL), see details in https://arxiv.org/abs/2007.14474 
+Each donor metadata item uses Unified Medical Language System (UMLS) Concept Unique Identifiers (CUIs) and related SNOMEDCT_US codes with [complete list here.](/docs/donor#more) This list will be expanded as clinical data transactions, not just metadata, are added for donors for which data is available. Similarly the other metadata will be encoded with applicable ontologies. The HuBMAP Knowledge Graph underpins all ontologies used in HuBMAP but is not yet deployed. The current CCF ontology uses Uberon, Kidney Tissue Atlas Ontology (KTAO) and Cell Ontology (CL), see details in https://arxiv.org/abs/2007.14474 
 
 </details>
 
@@ -174,7 +174,7 @@ For the next release, we currently have integrative analyses, additional spatial
 
 <details><summary>Is there a “MAP” in HuBMAP data release? </summary>
 
-The HuBMAP map is three-dimensional (3D) to capture the 3D context of single-cells and anatomical structures. The first portal release features a 3D Visible Human common coordinate system (CCF) with two organs: kidney and spleen.  A total of 116 samples from 27 donors provided by two Tissue Mapping Centers (TMCs) have been registered (or mapped) into this spatially and semantically explicit reference system. Use the [CCF Exploration User Interface](https://portal.hubmapconsortium.org/ccf-eui) to explore data spatially and semantically. Watch a short video introduction [here.](https://www.youtube.com/watch?v=DDmP_7vDy-o) 
+The HuBMAP map is three-dimensional (3D) to capture the 3D context of single-cells and anatomical structures. The first portal release features a 3D Visible Human common coordinate system (CCF) with two organs: kidney and spleen.  A total of 116 samples from 27 donors provided by two Tissue Mapping Centers (TMCs) have been registered (or mapped) into this spatially and semantically explicit reference system. Use the [CCF Exploration User Interface](/ccf-eui) to explore data spatially and semantically. Watch a short video introduction [here.](https://www.youtube.com/watch?v=DDmP_7vDy-o) 
 
 </details>
 
