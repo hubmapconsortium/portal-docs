@@ -279,7 +279,7 @@ Answer coming soon.
 
 ### Can I find an explanation for the choice of HuBMAP pipelines and algorithms? 
 
-Brief descriptions of the HuBMAP data analysis pipelines are available through the portal at  https://portal.hubmapconsortium.org/docs/pipelines . All code made available to users can be found on the HuBMAP github page (https://github.com/hubmapconsortium).
+Brief descriptions of the HuBMAP data analysis pipelines are available through the portal at  https://portal.hubmapconsortium.org/docs/pipelines. All code made available to users can be found on the HuBMAP github page (https://github.com/hubmapconsortium).
 
 ### Which samples should I consider to be technical replicates? 
 
