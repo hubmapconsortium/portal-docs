@@ -286,16 +286,17 @@ An overview of the Information on the experimental design and choice of modaliti
 Additional information on experimental design for each modality featured in the portal can be obtained on protocols.io as listed below. Further questions can be directed to the dataset contacts detailed within the portal.
 
 Overview protocols:
-University of Florida:
-CODEX-https://www.protocols.io/view/hubmap-tmc-florida-zurich-codex-modality-overview-be9pjh5n
-10x-https://www.protocols.io/view/hubmap-uf-tmc-10x-genomics-scrnaseq-modality-overv-be79jhr6
-Imaging Mass Cytometry- https://www.protocols.io/view/imaging-mass-cytometry-modality-overview-bgatjsen
 
-Vanderbilt University:
-Overview: https://www.protocols.io/view/vu-biomolecular-multimodal-imaging-center-biomic-k-bfskjncw
+#### University of Florida:
+- CODEX: https://www.protocols.io/view/hubmap-tmc-florida-zurich-codex-modality-overview-be9pjh5n
+- 10x: https://www.protocols.io/view/hubmap-uf-tmc-10x-genomics-scrnaseq-modality-overv-be79jhr6
+- Imaging Mass Cytometry: https://www.protocols.io/view/imaging-mass-cytometry-modality-overview-bgatjsen
 
-UCSD:
-https://www.protocols.io/view/human-kidney-urinary-tract-and-lung-cell-type-mapp-bj9wkr7e
+#### Vanderbilt University:
+- Overview: https://www.protocols.io/view/vu-biomolecular-multimodal-imaging-center-biomic-k-bfskjncw
+
+#### UCSD:
+- https://www.protocols.io/view/human-kidney-urinary-tract-and-lung-cell-type-mapp-bj9wkr7e
 
 </details>
 
