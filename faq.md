@@ -394,3 +394,5 @@ For the first data release, all antibodies were validated by individual groups. 
 
 [The Antibody Society’s antibody validation webinar series](https://pubmed.ncbi.nlm.nih.gov/32748696/)
 - Voskuil, J., Bandrowski, A., Begley, C. G., Bradbury, A., Chalmers, A. D., Gomes, A. V., Hardcastle, T., Lund-Johansen, F., Plückthun, A., Roncador, G., Solache, A., Taussig, M. J., Trimmer, J. S., Williams, C., & Goodman, S. L. MAbs. 2020;12(1):1794421. doi:10.1080/19420862.2020.1794421. PMID: 32748696
+
+</details>
