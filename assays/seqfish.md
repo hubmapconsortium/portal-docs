@@ -24,7 +24,7 @@ Decoding a barcode region: The readout-probes are labeled with one of 3 fluoresc
 
 *Figure 2. Each barcode region is decoded by sequential hybridization & imaging of 20 readout-probes. The signal from each readout-probe can then be assigned a unique pseudocolor (a number from 1-20) representing hybridization-step-order* [(Eng et al, 2019)](https://www.doi.org/10.1038/s41586-019-1049-y).
 
-The complete barcode for each mRNA is deduced from the sequence of pseudocolor numbers for regions I-III (region IV is an additional round used for error correction). A total of 8,000 (203) mRNA barcodes per fluorophore detection channel allows a grand total of 24,000 unique mRNA barcodes to be interrogated. The composite images reveal both the identities and subcellular localization of up to 24,000 mRNA molecules.
+The complete barcode for each mRNA is deduced from the sequence of pseudocolor numbers for regions I-III (region IV is an additional round used for error correction). A total of 8,000 (20<sup>3</sup>) mRNA barcodes per fluorophore detection channel allows a grand total of 24,000 unique mRNA barcodes to be interrogated. The composite images reveal both the identities and subcellular localization of up to 24,000 mRNA molecules.
 
 ## Definitions 
 There are a variety of terms used in this document that may not be familiar to all researchers wanting to make use of the HubMap data. The following figures illustrate several of these terms:  
