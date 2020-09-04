@@ -10,3 +10,7 @@ On the regular release schedule:
   - and, if QA passes, on production by Tuesday afternoon.
 
 This is the default: If something needs to be out faster, we can make it happen.
+
+Chris Briggs (Harvard) oversees curation, assay, and metadata related topics and questions.
+
+Melissa Schwenk (University of Pittsburgh) oversees general consortium and FAQ related topics and questions.
