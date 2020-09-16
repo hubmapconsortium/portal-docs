@@ -1,4 +1,30 @@
-# HuBMAP Application Programmer Interfaces (APIs)
+# HuBMAP IDs and APIs
+
+## IDs
+
+HuBMAP uses three different kinds of IDs:
+
+### HuBMAP ID
+- Example: `HBM123.ABCD.456` 
+- Used for identification of HuBMAP entities and referencing in HuBMAP context, e.g. in the portal UI, slides, human-human communication, etc.
+- Can be used to query portal UI and APIs
+- 1:1 mapping to UUID
+
+### UUID
+- Example: `0123456789abcdef0123456789abcdef`
+- Used for software implementation
+- Can be used to query portal UI and API
+- 1:1 mapping to HuBMAP ID
+
+### DOI
+- Example: `10.1234/HBM123.ABCD.456` 
+- Used for referencing outside HuBMAP context, in particular in publications.
+- Displayed as: doi:10.1234/HBM.123.ABCD.456
+- Linked to: https://doi.org/10.1234/HBM.123.ABCD.456
+- 1:1 mapping to HuBMAP ID
+
+
+## APIs
 Five application programming interfaces (APIs) currently define 
 data ingest support: Ingest, UUID, Search & Index, Entity, and Ontology.  Additionally, the HuBMAP portal uses Common Coordinate Framework (CCF) APIs (created by Indiana University TC) and internal transformation APIs (created by Harvard University TC)
 
