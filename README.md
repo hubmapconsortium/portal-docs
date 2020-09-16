@@ -9,7 +9,8 @@ On the regular release schedule:
   - deployed to DEV/TEST/STAGE Monday after 5pm,
   - and, if QA passes, on production by Tuesday afternoon.
 
-This is the default: If something needs to be out faster, we can make it happen.
+This is the regular schedule: If something needs to be out faster, we can try to make it happen;
+Conversely, sometimes there are problems with other systems which block release to production.
 
 Chris Briggs (Harvard) oversees curation, assay, and metadata related topics and questions.
 
