@@ -20,7 +20,7 @@ HuBMAP uses three different kinds of IDs:
 - Example: `10.1234/HBM123.ABCD.456` 
 - Used for referencing outside HuBMAP context, in particular in publications.
 - Displayed as: doi:10.1234/HBM.123.ABCD.456
-- Linked to: https://doi.org/10.1234/HBM.123.ABCD.456
+- Linked to: `https://doi.org/10.1234/HBM.123.ABCD.456`
 - 1:1 mapping to HuBMAP ID
 
 
