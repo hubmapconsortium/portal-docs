@@ -37,7 +37,7 @@ The [Github](https://github.com/hubmapconsortium/ingest-validation-tools/tree/ma
 All HuBMAP IMS data includes a metadata JASON file with additional instrumental parameters.
 
 
-## HuBMAP MxIF File Structure
+## HuBMAP MALDI-IMS File Structure
 
     enter code here
     Data Folder
