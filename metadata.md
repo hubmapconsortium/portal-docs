@@ -4,7 +4,7 @@ HuBMAP metadata documentation and submission specifications
 
 ## Donor
 
-[Donor Metadata Specification](/donor.md)
+[Donor Metadata Specification](/docs/donor)
 
 ## Sample
 - [Specification](https://github.com/hubmapconsortium/ingest-validation-tools/blob/master/docs/sample/README.md)
