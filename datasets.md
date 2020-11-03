@@ -1,4 +1,4 @@
-## Level of Access
+# Datasets: Level of Access
 
 ### Status:
 The status of a dataset indicates the dataset's state within the workflow process.  A typical dataset workflow process involves the following status transitions: New -> QA -> Published.  In a typical workflow, the dataset is progressing through steps representing analysis steps or increasingly stringent data quality checks.  The status also includes some non-standard statuses: Hold, Error, Processing, or Reopen.  Please note, the status of "Published" does not indicate the dataset can be seen outside of HuBMAP.  It merely means the data has undergone the necessary data curation and can be considered fit for research purposes.
