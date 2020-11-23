@@ -66,7 +66,7 @@ NIH Program - [Richard Conroy](mailto:richard.conroy@nih.gov) (NIH Common Fund)
 <tr>
   <td>
   Harvard Medical School<br>
-  PI: Nils Gehlenborg<br>
+  PI: <a href="http://gehlenborglab.org/team/members/nils-gehlenborg/">Nils Gehlenborg</a><br>
   </td>
   <td>
   Christine Briggs<br>
@@ -88,7 +88,7 @@ NIH Program - [Richard Conroy](mailto:richard.conroy@nih.gov) (NIH Common Fund)
 <tr>
   <td>
   Indiana University<br>
-  PI: Katy Börner<br>
+  PI: <a href="http://cns.iu.edu">Katy Börner</a><br>
   </td>
   <td>
   Daniel Bolin<br>
@@ -119,7 +119,7 @@ NIH Program - [Richard Conroy](mailto:richard.conroy@nih.gov) (NIH Common Fund)
 <tr>
   <td>
   University of Pittsburgh<br>
-  PI: Jonathan Silverstein<br>
+  PI: <a href="https://rio.pitt.edu">Jonathan Silverstein<a><br>
   </td>
   <td>
   Becky Boes<br>
