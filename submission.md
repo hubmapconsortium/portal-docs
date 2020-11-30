@@ -1,28 +1,28 @@
 # Dataset Submission
 
-Every dataset submission has two required components and one optional component submitted together in a data submission directory.
+Every dataset submission has three required components and one optional component submitted together in a data submission directory.
 
 #### Required components:
 
-- One **data directory** per dataset
-- One assay **metadata.tsv** per assay type
+- One **data directory** per dataset 
+- One **metadata.tsv** per assay type 
+- One **contributors.tsv** per dataset
     
 #### Optional component, dependent upon the assay type:
-- One **metadata directory** per dataset
+- One **antibody.tsv** per dataset in which antibodies were used
 
 
 If multiple datasets have been generated with the same assay_type, they may be submitted together in a single **data submission directory** with a single assay **metadata.tsv** listing all datasets, one per row (*Figure 1*). Each **data directory**  in a **data submission directory** contains the data files for a single dataset (*eg. image files, fastq files, etc*).
 
-Each **metadata directory**  contains optional relevant unstructured metadata files for a single dataset (*eg. QC reports, instrument metadata in a json, csv, txt, xml. etc*) .
 
-**![Figure 1: Example of an assay metadata.tsv](https://lh6.googleusercontent.com/oTMFZ1Ukpm--Hm5cem06er_6Ug90im0Nv3-pibF7HYVpxxEUJZBpQ3uy5wbsibns-YazqcNRIkDTXcu4MXColWZvnmcunbr_Xbz-f243YlMlgnSVv4CrfOxKG8BXd9r15gLFr26e)**
-*Figure 1: An assay-type specific assay metadata.tsv lists datasets in the submission directory for that assay-type. Datasets are listed one per row. The data_path fields point to the corresponding dataset directories in the data submission directory. The optional metadata_path fields point to the corresponding metadata directories.*
+**![Figure 1: Example of an assay metadata.tsv]()**
+*Figure 1: An assay_type-specific assay metadata.tsv lists datasets in the submission directory for that assay-type. Datasets are listed one per row. The data_path fields point to the corresponding dataset directories in the data submission directory. The contributors_path fields point to the corresponding contributors.tsv. The optional antibodies_path fields point to the corresponding antibodies.tsv.*
 
 
 
 Figure 2 below shows the general directory structure of a data submission. Note that a **data submission directory** may contain multiple **data directories** and **metadata directories**, each directory corresponding to one dataset/row in a single assay-specific assay **metadata.tsv**.
 
-**![Figure 2: General directory structure](https://lh6.googleusercontent.com/cnO7dibs46ta7cwL0mjSUoi8R9at_DZmFwcKz3x9JAN-IeQsfaPSM2FyBllZfJiYYJCuYrnj_PGRcQYQLCxQqoKTVSHW6RBW8_joogOyH0JyIYvW9jxqXiup0Td86N06JaPDdQFM)**
+**![Figure 2: General directory structure](TBD)**
 *Figure 2: A data submission directory may contain multiple datasets for multiple assay-types. Each dataset is provided in a corresponding data directory with optional metadata provided in a corresponding metadata directory. Each assay-specific metadata.tsv (eg.codex_metadata.tsv, maldi_metadata.tsv) in the dataset submission directory lists the corresponding datasets.*
 
 
@@ -31,24 +31,27 @@ In addition, multiple assay-specific **metadata.tsvs** may be included together 
 
 ### Preparing an Assay Metadata.tsv for Data Submission
 
-HuBMAP supports 3 categories of assays : mass spectrometry, imaging and nucleotide sequence. Each assay category encompasses a variety of unique assay-types involving unique chemistries, platforms, data types and analysis tools. Below are examples of assay-types from each assay category in HuBMAP:
+HuBMAP supports 4 categories of assays : mass spectrometry, mass spectrometry imaging, imaging and nucleotide sequence. Each assay category encompasses a variety of unique assay-types involving unique chemistries, platforms, data types and analysis tools. Below are examples of assay-types from each assay category in HuBMAP:
 
 ### mass spectrometry:
 - LC-MS
 - MS
 - TMT
-    
+
+### mass spectrometry imaging:
+- Imaging Mass Cytometry
+- MALDI-IMS
+- nanoPOTS
+- nanoDESI
+
 ### imaging:
 - AF
 - CODEX
-- Imaging Mass Cytometry
 - multiplexed IF
 - PAS microscopy
 - seqFISH
-- MALDI-IMS positive
-- MALDI-IMS negative
 
-### sequencing:
+### sequence:
 - bulk RNA
 - bulk ATAC
 - scRNA-Seq
