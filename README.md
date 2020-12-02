@@ -15,3 +15,10 @@ Conversely, sometimes there are problems with other systems which block release 
 Chris Briggs (Harvard) oversees curation, assay, and metadata related topics and questions.
 
 Melissa Schwenk (University of Pittsburgh) oversees general consortium and FAQ related topics and questions.
+
+## **This shouldn't be where you read the docs!**
+
+If you're here to read documentation, use [the Portal](https://portal.hubmapconsortium.org/docs/) instead!
+
+This repo is mirrored there, and in that context, the URLS don't include `.md`.
+As a consequence, links between documents in here in Github won't work. Besides that, the docs also reference other portions of the site that aren't in this repo at all.
