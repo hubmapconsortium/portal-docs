@@ -186,7 +186,7 @@ The CCF 3D Reference Object Library provides anatomically correct reference orga
 
 <details><summary>Where should  I report any errors / make suggestions for new portal features or functionality / ask more questions about using the portal? </summary>
 
-We welcome your comments and your help to identify errors and define priorities for future portal releases. You can provide error reports, make suggestions, or ask questions through this form: hubmapconsortium.org/contact-form  
+We welcome your comments and your help to identify errors and define priorities for future portal releases. You can provide error reports, make suggestions, or ask questions through the form at https://hubmapconsortium.org/contact-form/.
 
 </details>
 
