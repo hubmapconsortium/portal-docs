@@ -18,7 +18,7 @@ The HuBMAP Consortium CODEX pipeline uses [Cytokit](https://bmcbioinformatics.bi
 
 SPRM is a statistical modeling program used to calculate a range of descriptors from multichannel images. It can be used for any type of multichannel 2D or 3D image (e.g., CODEX, IMS).
 
-- Git Hub: none currently available
+- [Git Hub](https://github.com/hubmapconsortium/sprm)
 
 ### [Single-cell RNA sequencing](https://docs.google.com/document/d/14Fu32w_AjyOzT82m99DzZz5iUEJa5v98IBPns5vlizo/edit?usp=sharing)
 
