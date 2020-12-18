@@ -13,10 +13,15 @@ Nanodroplet Processing in One Pot for Trace Samples (Nano-POTS) imaging mass spe
 
 ## Definitions: 
 There are a variety of terms used in this document that may not be familiar to all researchers wanting to make use of the HubMap data. The following figures illustrate several of these terms: 
+![](https://lh6.googleusercontent.com/Sc2gPvhkBMBtE7miJG5fw62nMRkRs7cmMRTLrU1JDFLAsuhrC1mio4L07A9QKSDn9_t56Iv6QZ8ZGZbS-1zgQn4rWVdpdIRkF9OMXpWMrJ9_57sAN9KzYiKYUY-pa0XCGCqkx9Wn3vHftMyyIw)
 
 **Figure 1: Imaging mass spectometry terms.** *The transparent box with blue border is a glass slide holding the tissue section in the middle. The blue box displays the tissue description. The red box indicates the user-defined imaging region on tissue.*
 
+![](https://lh6.googleusercontent.com/qSwTLERTSNlPktDzOfApaL3Cg8tEt_FIKMOTIADFdzjkCP-YlnY-bWxoD-dpi84IiOGRDO5pu71nbqXEgbTMRRADyZz0iswVCb4Ye52oInu-d6CRXvLqQD7RcCS708uHTqTBmaim_NMtSIRb5A)
+
 **Figure 2:** *Nano-DESI IMS is performed by scanning the sample with a liquid bridge formed between the primary capillary and Nanospray capillary so that analytes are extracted from the sample surface at each pixel. The spatial resolution is determined by the liquid bridge size at each pixel and the scan rate.*
+
+![](https://lh4.googleusercontent.com/VDSxIcSii0DJcqPXCarJsSNoci3i7mV_zO2f_bM70SUNqoYwdw3XWshoZPiBn5yHE026UBe6esEdBuydk3M6M9AkAzYVICb6djvI2EyK4sVrWQ3duj-WSKA_VaS0JOgnlsmT9mKtnLnxzkMo7w)
 
 **Figure 3:** *Nano-POTS IMS is performed by performing LC-MS/MS at each pixel from the sample surface. The spatial resolution is determined by the Nanowell droplet size at each pixel.*
 
@@ -34,6 +39,35 @@ This metadata field schema resides in [Github](https://github.com/hubmapconsorti
 In addition, all HuBMAP nano-DESI data includes a metadata JSON file with additional instrumental parameters.
 
 ### HuBMAP nano-DESI & nano-POTS File Structure: 
+
+**Main Folder Name**
+1. Metadata.csv
+2. NanoDESI_IMS_NegMode
+
+Slidexxx Sectionxxx Imaging regionxxx 2020xxxx
+a. Raw data.imzML
+b. Peak assignment.csv
+c. Ion Images
+  i. m/z xxx.xx.png
+  ii. m/z xxx.xx.png
+  iii. m/z xxx.xx.png
+  iv. m/z xxx.xx.png
+  v. ...
+ Autofluorescence image
+ 
+ 3. NanoDESI_IMS_PostMode
+ 
+ Slidexxx Sectionxxx Imaging regionxxx 2020xxxx
+a. Raw data.imzML
+b. Peak assignment.csv
+c. Ion Images
+  i. m/z xxx.xx.png
+  ii. m/z xxx.xx.png
+  iii. m/z xxx.xx.png
+  iv. m/z xxx.xx.png
+  v. ...
+ Autofluorescence image
+
 
 ## Additional Tags and Definitions: 
 *IMS Tags:*
