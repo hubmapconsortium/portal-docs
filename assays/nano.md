@@ -42,30 +42,50 @@ In addition, all HuBMAP nano-DESI data includes a metadata JSON file with additi
 
 **Main Folder Name**
 1. Metadata.csv
+
 2. NanoDESI_IMS_NegMode
 
 Slidexxx Sectionxxx Imaging regionxxx 2020xxxx
+
 a. Raw data.imzML
+
 b. Peak assignment.csv
+
 c. Ion Images
+
   i. m/z xxx.xx.png
+  
   ii. m/z xxx.xx.png
+  
   iii. m/z xxx.xx.png
+  
   iv. m/z xxx.xx.png
+  
   v. ...
+  
  Autofluorescence image
+ 
  
  3. NanoDESI_IMS_PostMode
  
  Slidexxx Sectionxxx Imaging regionxxx 2020xxxx
+ 
 a. Raw data.imzML
+
 b. Peak assignment.csv
+
 c. Ion Images
+
   i. m/z xxx.xx.png
+  
   ii. m/z xxx.xx.png
+  
   iii. m/z xxx.xx.png
+  
   iv. m/z xxx.xx.png
+  
   v. ...
+  
  Autofluorescence image
 
 
