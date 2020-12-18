@@ -177,3 +177,30 @@ The following metadata fields reside in the appropriate round_info_SXXXXXXXX_RRR
 |  background_exp_4| 2000 |exposure time for fixed image to be subtracted for channel <n> |
 |  rotation_determined| TRUE | Has relative rotation of slide versus the auto-align round been determined|
 
+The following metadata files reside in the parent study folder.
+
+|**File** |  **Definition**| **Example** | 
+|--|--|--|
+|Slide_list.txt|A list of slides used in the study.|Such as: S20030077, S20030078, S20030079, S20030080, S20030081|
+|Channel_list.txt|A list of original image paths. |Such as: RegisteredImages/S002/S002_mono_dapi_reg_pyr16_region_,DAPI_INIT AFRemoved/AE1_AFRemoved_pyr16_region_,AE1|
+
+Antibody Metadata: Each TMC will provide:
+- an antibody_metadata.tsv for antibody info AND 
+- a file listing each antibody name, respective cycle and channel. 
+This metadata file will then inform later processes at the HIVE and be used for labeling. Further, we aim to curate the final antibody list with expert interpretation of redundant names to make antibodies and markers a searchable criteria within the HuBMAP database. (Section 6 below)
+
+## HuBMAP Cell DIVE Raw File Structure:
+The general structure of the level 0 (raw) data produced by the GE Research Cell DIVE software is shown in the image below. 
+
+Segmentation files are included among the processed data contributed by the TMC’s and can be found in the following locations: 
+|**Type of Segmentation/Description** |  **Descriptor (the name should contain the following)**| **Location** | 
+|--|--|--|
+|Nuclei segmentation from dapi images|Dapi_Slidexx_regionxx_nucseg.tif|Seg_and_quant_results/segmentation|
+
+## Cell DIVE Processing by the HIVE:
+The HIVE data processing pipeline documentation are to be determined as of 12/18/2020.
+
+## For Additional Help: 
+Please contact: [Chris Briggs](mailto:Christine_Briggs@hms.harvard.edu)
+
+
