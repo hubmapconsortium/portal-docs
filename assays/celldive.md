@@ -14,7 +14,7 @@ There are a variety of terms used in this document that may not be familiar to a
 
 **Figure 2:** *Images are generally acquired with adjacent tiles overlapping, as indicated by the dark regions in the image on the right above. Overlap enhances alignment of tiles for stitching to create a composite image, as shown in Figure 4 below.*
 
-**Figure 3:** * Images of tiles are captured as the stage moves across the imaged region row by row (left) or via a serpentine (or snake-like) path (right).*
+**Figure 3:** *Images of tiles are captured as the stage moves across the imaged region row by row (left) or via a serpentine (or snake-like) path (right).*
 
 **Figure 4:** *Stitching is the process of aligning and merging neighboring image tiles into a single composite image.*
 
@@ -187,6 +187,7 @@ The following metadata files reside in the parent study folder.
 Antibody Metadata: Each TMC will provide:
 - an antibody_metadata.tsv for antibody info AND 
 - a file listing each antibody name, respective cycle and channel. 
+
 This metadata file will then inform later processes at the HIVE and be used for labeling. Further, we aim to curate the final antibody list with expert interpretation of redundant names to make antibodies and markers a searchable criteria within the HuBMAP database. (Section 6 below)
 
 ## HuBMAP Cell DIVE Raw File Structure:
