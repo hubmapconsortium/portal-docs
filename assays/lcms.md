@@ -74,6 +74,10 @@ Outline of the full ProTeomiX (PTX) Quality Control (QC) Report including metric
  
 See J. Proteome Res., 2016, 15 (3), pp 777-787. DOI: [10.1021/acs.jproteome.5b00780](https://doi.org/10.1021/acs.jproteome.5b00780) for further details.
 
+## QC for Lipidomics & Metabolomics
+
+In order to test for batch effects, PCA plots are generated to confirm correct clustering of quality-control-samples.
+
 ## Terms defined in this document
 
 |**Term** |  **Definition**|
