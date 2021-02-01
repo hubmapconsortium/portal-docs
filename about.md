@@ -152,7 +152,6 @@ NIH Program - [Richard Conroy](mailto:richard.conroy@nih.gov) (NIH Common Fund)
   Stephen Deems<br>
   Shane Filus<br>
   Deb Nigra<br>
-  Nick Nystrom<br>
   Alex Ropelewski<br>
   Robin Scibek<br>
   Derek Simmel<br>
