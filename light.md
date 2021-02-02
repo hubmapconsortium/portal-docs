@@ -105,4 +105,4 @@ Antibody metadata will be included in the Parent Folder of corresponding dataset
 Please see the HIVE LSFM data processing pipeline documentation.
 
 ## For Additional Help:  
-Please contact:  
+Please contact:   [Seth Curlin](mailto:scurrlin@ufl.edu) 
