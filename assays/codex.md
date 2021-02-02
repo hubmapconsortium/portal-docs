@@ -140,9 +140,18 @@ If files fail to meet this validation criteria, they will not be submitted to th
     
 If no blanks have been included within the CODEX dataset, the recommended action by the HIVE is to reject the dataset.
 
-3) After acquisition of the dataset, each TMCs is required to generate a report of the markers used to map the tissue. This report should be provided as a “.csv” file named **channelnames_report**. This file follows the following structure:
+3) After acquisition of the dataset, each TMCs is required to generate a report of the markers used to map the tissue. This report should be provided as a “.csv” file named **channelnames_report.csv**. The file has two columns: The first is a name, the second is `TRUE` if the channel should be used in analysis, and `FALSE` if not:
 
-![](https://lh4.googleusercontent.com/cbPor-UGSWwl1aXBTszGvYhrd0IfQKtaJkNfm_waTTNqEKSOljHWfFgE3Yarqag1gt880OpwDyKxHwDst-MpDE6AXCrhyugKglfq7xKVgn06fytKDYS8rG_AhGtNki1DWakAFCtJ)
+```
+DAPI-01,TRUE
+BLANK,TRUE
+BLANK,TRUE
+BLANK,TRUE
+DAPI-02,TRUE
+CD31,FALSE
+CD8,FALSE
+CD45,FALSE
+```
 
 For TMCs using the CODEX commercial version, This file can be created by duplicating the file **channelnames.txt** created during the acquisition of the dataset and adding **“_report.csv”**.
 
