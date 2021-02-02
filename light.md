@@ -27,15 +27,19 @@ Terms used in this document:
 | Channels | Name of the fluorescence excitation wavelengths used. May be expressed as a fluorophore name (e.g. DAPI, GFP, DsRED, Cy5), wavelength (e.g. 488, 540, 750), or color (e.g. green, red, blue).|
 
 *Grey Box* - Whole volume of tissue following clearing protocol.
+
 *Multicolor boxes* - Nine Z-stacks encompassing the user defined volume of interest; numbered in order of acquisition. This multi-Z-stack dataset is called a Multiview. 
+
 *Box 3* - Example of Z-stack with 10 optical planes (red dashed squares). Distance between optical planes is “IncrementZ”. 
+
 *Green dashed arrows* -  Serpentine acquisition sequence of Z-stacks for a Multiview data set.
 
 ![](https://lh6.googleusercontent.com/amEsImzzbWvEvf1sZgWm8TYKOWBMyBLkKGqkQxSWzVSw1VS4cYcYk2e2IGBl8drtAHxu4HQXMBd96pMfXG8EP9H0nzpzgTXpC38FS-9IHdlmwLDc9_sGtMsPKd0rM3v5KSx0-ANlgg1Ps46XEw)
 *Figure 1: The first 10 optical planes imaged are in Box 1, 11-20 in Box 2, 21-30 in Box 3, and so on. The total number of z-stacks acquired (SizeV) is determined by the xy plane field of view which depends on instrument and acquisition settings.*
 
 ![](https://lh3.googleusercontent.com/VtQKat9m0SBXs1bT5rIpe-LvcApJcoOEcy6_G3iI3Jd1bcq86gyKD62G2WR32mzD92lt6TSWuBBJ4gb-mm_aFtwFFuxxeTh6-lzpOR3ZG4qJaUugHd9Pk-6pUCrqaSnPcXv2msofwEokZOat0Q)
-*Figure 2:Stitching together neighboring z-stack tiles occurs in post-processing (data state, level 2). Tile stitching occurs within the same Z-plane from boxes 1 thru 9 and is reliant upon overlap in the X- and Y- field of view. Tile stitching is a supervised task and may have minor error in alignments. Automated stitching alignment is not without error either and is increasingly challenging for larger volumes of tissue. Standard overlap of tiles is 5%.*
+
+*Figure 2: Stitching together neighboring z-stack tiles occurs in post-processing (data state, level 2). Tile stitching occurs within the same Z-plane from boxes 1 thru 9 and is reliant upon overlap in the X- and Y- field of view. Tile stitching is a supervised task and may have minor error in alignments. Automated stitching alignment is not without error either and is increasingly challenging for larger volumes of tissue. Standard overlap of tiles is 5%.*
 
 ## HuBMAP Lightsheet Data States (Levels): 
 |**Data State** |  **Description**| **Example File Type** | 
