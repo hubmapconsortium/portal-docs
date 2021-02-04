@@ -136,52 +136,81 @@ University of Florida| drv_*| https://app.globus.org/file-manager?origin_id=28bb
  
 If files fail to meet this validation criteria, they will not be submitted to the HIVE.
 
-2.  A cycle for assessing background (“blanks”) should be included in every CODEX experiment. At a minimum, the first cycle should be filled with “blanks” with an additional “blank” cycle for each change in exposure time. [identified in the channel_names file which will be labeled as “blank”].
+2.  A cycle for assessing background (“blanks”) should be included in every CODEX experiment. At a minimum, the first cycle should be filled with “blanks” with an additional “blank” cycle for each change in exposure time. [identified in the channel_names file which will be labeled as “Blank”].
     
 If no blanks have been included within the CODEX dataset, the recommended action by the HIVE is to reject the dataset.
 
-3) After acquisition of the dataset, each TMCs is required to generate a report of the markers used to map the tissue. This report should be provided as a “.csv” file named **channelnames_report.csv**. The file has two columns: The first is a name, the second is `TRUE` if the channel should be used in analysis, and `FALSE` if not:
+3) After acquisition of the dataset, the CODEX commercial instrument generates a ".txt" "channelnames" file which lists the marker per channel/per cycle and has the general structure shown below. The operator saves a copy as a “.csv” file named **channelnames_report** and annotates each channel/cycle as described below. 
+As shown in this example, DAPI is a DNA-binding fluorescent dye that serves as a control detected in channel 1 for each hybridization cycle (DAPI-01, DAPI-02, etc):
 
 ```
-DAPI-01,TRUE
-BLANK,TRUE
-BLANK,TRUE
-BLANK,TRUE
-DAPI-02,TRUE
-CD31,FALSE
-CD8,FALSE
-CD45,FALSE
+DAPI-01
+Blank
+Blank
+Blank
+DAPI-02
+CD31
+CD8
+Empty
+DAPI-03
+CD20
+Ki67
+CD3e
+DAPI-04
+SMActin
+Podoplanin
+CD68
+DAPI-05
+PanCK
+Empty
+Blank
+etc......
 ```
-
-For TMCs using the CODEX commercial version, This file can be created by duplicating the file **channelnames.txt** created during the acquisition of the dataset and adding **“_report.csv”**.
 
 ![](https://lh3.googleusercontent.com/r_2WwrWttNu5b4eY8i-zuvdShMH0-00mmZ-n3k1wKZES7yuXWEN0HSOBePoyH9mLJug23xYpuyOOehNgdne3Bn6cLO3Mv7GCvyBbD-FooxQuSfXccz3chGWar5ddY4erOv3XjItt)
 
 ![](https://lh6.googleusercontent.com/5OyUoMcIzx9_DwVs2020xthbUPSyZpoD0Xq0iP4XkXGNvo8reTYVozOzQZxF0I9_nOVkY4PKDl92yrqgqJnHytF24MQ3Ut3JAj0kuKFoUnUMQEKOVloac7EGXtq3X0NOSxWDRhC9)
 
 ### How to read channelnames
-For the commercial version, the document is structured as following:
 
-![](https://lh3.googleusercontent.com/6O6zMI0PWtmiASezKjSD_YAbN-fzAtz7H2gQUs4RWeD1sd3mM4a-ZL2GW59stOV582AdOF8nI79IfCIZAAxCAQspxtLdt1BLY3kPyMhMgKdRJYZKzclhLjnfG9PhCpRKXMXkImMr)
+*Blank channel* is used to monitor autofluorescence at each channel (wavelength) which typically increases over time and with each cycle.
 
-*Blank channel* indicates autofluorescence level at the specific channel (wavelength) for a set exposure time
+*Empty channel* indicates a channel (wavelength) that was not used to detect any marker during a specific cycle.
 
-*Empty channel* indicates a channel (wavelength) that was not used to target a marker during a specific cycle.
-
-Each cycle is formed from N number of channels. For each dataset, information regarding the number of cycles that were acquired through each channel will be available in the experiment.json file:
+For each dataset, the number of cycles and channels is reported in the experiment.json file:
 ![](https://lh4.googleusercontent.com/HNpVApDXXGiQvkeEK8xDAxyy6duSetS5Hc9aHQVbaofd7V_pyOPVqWOsa8cYPKsglQF6js669YgkjjxIRnKnPZocPhG-yZw2ytlb7FUPor1i-JPut3K_nFbqXPp8woD9YJvTyubu)
 
 ### How to read channelnames_report
-![](https://lh4.googleusercontent.com/ntf-bUMDwkHF_ad1Mjrj7j49ybdN671eI3u-kxQPVRrQTetv_Hm0DGVJQ59nm8rpMqFIOF-cboxoMCxUpBIf0AuyX8kKDBXlNYZZx55lnireBfZ3qqy1JuVgS1s6r8cFuaeFtmpe)
+The operator annotates each cycle/channel with *TRUE/FALSE* to indicate whether or not the expected signal or absence of signal was detected, i.e. antibody bound to the target protein or the channel was Blank or Empty.
 
-*Same as channelnames.txt.*
-
-*TRUE/FALSE* depending on if the data indicates antibody bound to the correct target protein. This information is specific for tissue samples.
+```
+DAPI-01, TRUE
+Blank, TRUE
+Blank, TRUE
+Blank, TRUE
+DAPI-02, TRUE
+CD31, FALSE
+CD8, FALSE
+Empty, FALSE
+DAPI-03, TRUE
+CD20, FALSE
+Ki67, FALSE
+CD3e, FALSE
+DAPI-04, TRUE
+SMActin, FALSE
+Podoplanin, FALSE
+CD68, FALSE
+DAPI-05, TRUE
+PanCK, FALSE
+Empty, TRUE
+Blank, TRUE
+etc......
+```
 
 ### How to evaluate the channels to create the QA/QC channelnames_report.cvs file
 Using commercial version:
 
-1.  Process the data using the commercial available processing tool provided by Akoya.
+1.  Process the data using the processing tool provided by Akoya.
 ![](https://lh3.googleusercontent.com/TdXb9S_H0e_5gjnEVP0D2kBX39s3DZ7bR1CL9SMTkBwp6omwxM7tFiT54_voUpIoHXcWcPjTJ-JIoQq5mi6WrjS2qLJritRv2N-_eiVBa-kADGDLVR9HUKgJ7HX5gqA5HKf8UfAf)
 2.  Generate the Report ppt file by enabling the option at the prompt.
 ![](https://lh6.googleusercontent.com/o_gu3Rdk8LEYfnNIsgRNVc3B5R1vL9ZMcIK5X_L8i7HXcrD5OjfdB0Ly2zsQhpZoWvvu-SgfMRNk3d8UIa-7wJZKq130VSg6LVvBqdIbFnGWQyKCknPGth6Ck2FH9rqM4Ptlzlfj)
