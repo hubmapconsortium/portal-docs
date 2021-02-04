@@ -140,29 +140,32 @@ If files fail to meet this validation criteria, they will not be submitted to th
     
 If no blanks have been included within the CODEX dataset, the recommended action by the HIVE is to reject the dataset.
 
-3) After acquisition of the dataset, the CODEX commercial instrument generates a ".txt" "channelnames" file which lists the marker per channel/per cycle and has the general structure shown below. The operator saves a copy as a “.csv” file named **channelnames_report** and annotates each channel/cycle as described below. As shown in this example, DAPI is a DNA-binding fluorescent dye that serves as a control detected in channel 1 for each hybridization cycle (DAPI-01, DAPI-02, etc):
+3) After acquisition of the dataset, the CODEX commercial instrument generates a ".txt" "channelnames" file which lists the marker per channel/per cycle and has the general structure shown below. The operator saves a copy as a “.csv” file named **channelnames_report** and annotates each channel/cycle as described below. 
+As shown in this example, DAPI is a DNA-binding fluorescent dye that serves as a control detected in channel 1 for each hybridization cycle (DAPI-01, DAPI-02, etc):
 
-DAPI-01<br>
-Blank<br>
-Blank<br>
-Blank<br>
-DAPI-02<br>
-CD31<br>
-CD8<br>
-Empty<br>
-DAPI-03<br>
-CD20<br>
-Ki67<br>
-CD3e<br>
-DAPI-04<br>
-SMActin<br>
-Podoplanin<br>
-CD68<br>
-DAPI-05<br>
-PanCK<br>
-Empty<br>
-Blank<br>
+```
+DAPI-01
+Blank
+Blank
+Blank
+DAPI-02
+CD31
+CD8
+Empty
+DAPI-03
+CD20
+Ki67
+CD3e
+DAPI-04
+SMActin
+Podoplanin
+CD68
+DAPI-05
+PanCK
+Empty
+Blank
 etc......
+```
 
 ![](https://lh3.googleusercontent.com/r_2WwrWttNu5b4eY8i-zuvdShMH0-00mmZ-n3k1wKZES7yuXWEN0HSOBePoyH9mLJug23xYpuyOOehNgdne3Bn6cLO3Mv7GCvyBbD-FooxQuSfXccz3chGWar5ddY4erOv3XjItt)
 
@@ -180,27 +183,29 @@ For each dataset, the number of cycles and channels is reported in the experimen
 ### How to read channelnames_report
 The operator annotates each cycle/channel with *TRUE/FALSE* to indicate whether or not the expected signal or absence of signal was detected, i.e. antibody bound to the target protein or the channel was Blank or Empty.
 
-DAPI-01, TRUE<br>
-Blank, TRUE<br>
-Blank, TRUE<br>
-Blank, TRUE<br>
-DAPI-02, TRUE<br>
-CD31, FALSE<br>
-CD8, FALSE<br>
-Empty, FALSE<br>
-DAPI-03, TRUE<br>
-CD20, FALSE<br>
-Ki67, FALSE<br>
-CD3e, FALSE<br>
-DAPI-04, TRUE<br>
-SMActin, FALSE<br>
-Podoplanin, FALSE<br>
-CD68, FALSE<br>
-DAPI-05, TRUE<br>
-PanCK, FALSE<br>
-Empty, TRUE<br>
-Blank, TRUE<br>
+```
+DAPI-01, TRUE
+Blank, TRUE
+Blank, TRUE
+Blank, TRUE
+DAPI-02, TRUE
+CD31, FALSE
+CD8, FALSE
+Empty, FALSE
+DAPI-03, TRUE
+CD20, FALSE
+Ki67, FALSE
+CD3e, FALSE
+DAPI-04, TRUE
+SMActin, FALSE
+Podoplanin, FALSE
+CD68, FALSE
+DAPI-05, TRUE
+PanCK, FALSE
+Empty, TRUE
+Blank, TRUE
 etc......
+```
 
 ### How to evaluate the channels to create the QA/QC channelnames_report.cvs file
 Using commercial version:
