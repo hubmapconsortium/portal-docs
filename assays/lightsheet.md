@@ -9,9 +9,10 @@ This document details light sheet fluorescence microscopy (LSFM) data states, me
 Light sheet fluorescence microscopy is used to image large volumes of tissue following clearing and multiplexed immunolabeling protocols. Datasets consist of one or more Z-stacks, series of optical sections along the z axis. Corresponding Z-stack planes can be stitched together for a Multiview dataset. 
 
 ## Defintions: 
-Terms used in this document: 
-|**Term** |  **Definition**| 
-|--|--|
+Terms used in this document:
+ 
+| Term | Definition | 
+| --- | --- |
 | Fluorescence | Light produced by a fluorophore that is bound to an antibody tag|
 | Volume | Three-dimensional region of interest|
 | Tile | Field of view in the xy dimension|
