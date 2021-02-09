@@ -1,7 +1,9 @@
 # portal-docs
-Markdown documentation to be displayed in the Portal
+Markdown documentation to be displayed in the Portal.
+This repo is included as a git submodule in [`portal-ui`](https://github.com/hubmapconsortium/portal-ui):
+The documents are included in the JS bundle for the HuBMAP Portal, and rendered on the client-side.
 
-On the regular release schedule:
+Release schedule:
 - Changes made by Monday 5pm will be 
   - deployed to DEV/TEST/STAGE Wednesday after 5pm,
   - and, if QA passes, on production by Thursday afternoon.
