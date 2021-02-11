@@ -28,7 +28,7 @@ There are a variety of terms used in this document that may not be familiar to a
 
 ![](https://lh5.googleusercontent.com/qQdIuw7mb-7UqwuGG26AvXOayPNI7EUpMHIbhD2Jt3NpffgftKAEeybUZJvxDZd_g6MS37H1yjB4zo5ouA9TNIAhh_iJrM_Ars3wXJnsmQZUay53n4ZdikITCGhOMLJ8dE-j9tdjagjCUkwI)
 
-**Figure 5:** *Deep learning based nuclei segmentation*
+**Figure 5:** *Deep learning based nuclei segmentation. An encoder-decoder based deep learning model was used for nuclei segmentation. Multiscale Laplacian of Gaussian (LoG) as feature map was derived from DAPI images was used for training the encoder-decoder deep learning framework of three levels. Max pooling was applied at all the levels for relevant feature selection in the encoding phase and drop-out was used to reduce over fitting.*
 
 ## Terms defined in this document:
 |**Term** |  **Definition**|
@@ -212,6 +212,21 @@ Segmentation files are included among the processed data contributed by the TMCâ
 
 ## Cell DIVE Processing by the HIVE:
 The HIVE data processing pipeline documentation are to be determined as of 12/18/2020.
+
+## QA/QC of processed microscopy data (state 1):
+QC for the Cell DIVE process as performed by GE Research is performed on the processed microscopy data (state 1).  
+ 
+Files submitted will be in OME format and can be checked in the following ways: 
+1.         There should be a region directory for each donor under the HuBMAP_OME directory
+2.         Each region should contain a number of OME TIFFS equal to the number of sections taken from the block of all donors, with each file identified by the corresponding slide ID.  The full list of all slide IDs (i.e. one section per slide) is found in the root directory in the file slide_list.txt
+3.        Each OME tiff file should contain a number of channels equal to the number of markers plus two (the two additional channels being the initial and the final dapi images).  The list of channels is contained in the file channel_list.txt in the data set root directory
+4.       There should be an OME TIFF file for each slide in the vHE (virtual H&E)  directory.  These vHE files consist of a whole slide image for each of the slides in the data set.  The whole slide image for each slide should contain a number of distinct sections that corresponds to the number of donors in the data set.
+ 
+For a visual assessment, each OME-TIFF can be opened in a suitable viewer (for example QuPath).  Each channel can be inspected for focus, contrast and the presence of any foreign debris obstructing the image.  Tissue loss can be inferred by comparing the dapi_init channel to the dapi_final channel.  Stitching artifacts such as mis-aligned tiles and an apparent significant quilting pattern can be determined visually as well.
+ 
+For each specific channel, compare marker localization to the staining pattern observed in the batch control slide. This batch control slide should represent the tissue(s) used for the original antibody characterization and staining patterns should follow correct cell type localization for the target marker.
+ 
+To avoid the presence of stitching artifacts it is critical that the imager be initially calibrated with a standard Cell DIVEâ„¢ calibration plate.  This plate includes targets to support corrections for optical distortion, slight stage and camera mis-alignment, and illumination non-uniformity.  If significant stitching artifacts are observed, consider rerunning the automated calibration routine before the next slide study is performed.  
 
 ## For Additional Help: 
 Please contact: [Chris Briggs](mailto:Christine_Briggs@hms.harvard.edu)
