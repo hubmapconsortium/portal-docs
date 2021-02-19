@@ -38,11 +38,65 @@ Linked entries below direct you to the associated code repository if one is pres
 - [CCF reference objects](https://github.com/hubmapconsortium/ccf-3d-reference-object-library/blob/master/README.md) (body, organs)
 - [CCF registration tool](https://github.com/hubmapconsortium/ccf-3d-registration/blob/master/README.md) (RUI)
 ## Data & Metadata
-Antibody registration tool
-Data & metadata standards & documentation
-Data ingest tool (data & metadata, sample, assay, antibody report, contributor)
-File transfer interface (Globus)
-Manual dataset ingest tools
-Manual donor data ingest process
-Sequencing data dbGaP submission tool
-Tissue & donor registration tool
+- Antibody registration tool
+- [Data & metadata standards & documentation](https://portal.hubmapconsortium.org/docs/metadata)
+- [Data ingest tool](https://github.com/hubmapconsortium/ingest-ui/blob/test-release/README.md) (data & metadata, sample, assay, antibody report, contributor)
+- [File transfer interface](https://github.com/hubmapconsortium/sample-data-portal/blob/master/README.md) (Globus)
+- [Manual dataset ingest tools](https://github.com/hubmapconsortium/manual-data-ingest/blob/master/README.md)
+- Manual donor data ingest process
+- [Sequencing data dbGaP submission tool](https://github.com/hubmapconsortium/dbgap-submission-scripts/blob/master/README.md)
+- [Tissue & donor registration tool](https://github.com/hubmapconsortium/uuid-ui/blob/master/README.md)
+## Pipeline
+- [Base QA pipeline](https://github.com/hubmapconsortium/ingest-pipeline) (IEC dataset one)
+- Cells API: [cell identification](https://github.com/hubmapconsortium/hubmap-cell-id-gen-py/blob/main/README.md), [backend](https://github.com/hubmapconsortium/cross_modality_query/blob/master/README.md), [js client](https://github.com/hubmapconsortium/hubmap-api-js-client/blob/main/README.md), [py client](https://github.com/hubmapconsortium/hubmap-api-py-client/blob/main/README.md)
+- [Data ingest pipeline](https://github.com/hubmapconsortium/ingest-pipeline/blob/devel/README.md)
+- Pipeline for:
+  - [CODEX (Cytokit + SPRM)](https://github.com/hubmapconsortium/codex-pipeline/blob/master/README.md)
+  - [“Example Pipeline”](https://github.com/hubmapconsortium/example-pipeline)
+  - [Imaging Mass Spectrometry & MxIF](https://github.com/hubmapconsortium/ims-mxif-pipeline/blob/master/README.md)
+  - [sc/snATAC-seq](https://github.com/hubmapconsortium/sc-atac-seq-pipeline/blob/develop/README.md) (SnapTools, SnapATAC, and chromVAR)
+  - [sc/snRNA-seq](https://github.com/hubmapconsortium/salmon-rnaseq/blob/master/README.rst) (Salmon, Scanpy, scVelo)
+  - [SPRM](https://github.com/hubmapconsortium/sprm/blob/master/README.md) (Imaging pipeline)
+  - Spatial Transcriptomics (Starfish)
+- QA metrics service (assay specific pipeline QA metric sharing)
+- Tools
+  - [Mixed datatype pipeline tools](https://github.com/hubmapconsortium/cross-dataset-common/blob/master/README.md)
+  - [OME.TIFF Pyramid](https://github.com/hubmapconsortium/ome-tiff-pyramid)
+  - [Pipeline deployment](https://github.com/hubmapconsortium/pipeline-release-mgmt/blob/master/README.rst)
+  - [Sequencing (FASTQ) file tools](https://github.com/hubmapconsortium/fastq-utils)
+  - [Sequencing (snap) file tools](https://github.com/hubmapconsortium/SnapTools/blob/hubmap-develop/README.md)
+  - [Visualization pre-processing](https://github.com/hubmapconsortium/portal-containers/blob/master/README.md)
+  - [Vitessce pre-processing](https://github.com/hubmapconsortium/vitessce-data/blob/master/README.md)
+- [Workflow management](https://github.com/hubmapconsortium/airflow/blob/master/README.md) + [Common Workflow Language](https://github.com/hubmapconsortium/cwltool) tool
+  - [Development workflow management](https://github.com/hubmapconsortium/airflow-dev/blob/master/README.md)
+ ## Reference Mapping
+ - [Azimuth: Automated mapping of query datasets](https://github.com/satijalab/azimuth/blob/master/README.md) for HuBMAP references
+ ## QA
+- Approval process (currently manual process)
+- [Dataset validation tools](https://github.com/hubmapconsortium/ingest-validation-tools/blob/master/README.md) (data, metadata)
+  - [Metadata submission conversion](https://github.com/hubmapconsortium/tableschema-to-template/blob/main/README.md)
+  - [Tests supporting validation](https://github.com/hubmapconsortium/ingest-validation-tests/blob/devel/README.md)
+- Manual curation tools
+- QC metrics
+## Search & Download
+- General [Search](https://github.com/hubmapconsortium/search-api/blob/test-release/README.md) (Elasticsearch)
+- Query tools 
+- Facets
+- Semantic
+    - Gene
+    - Cell
+  - Spatial 
+  - Multidimensional
+- Dataset Download (Portal link + Globus mechanism)
+## Visualization 
+- Pipeline visualization (CWL)
+- [Portal & dataset UI](https://github.com/hubmapconsortium/portal-ui/blob/master/README.md)
+  - [Portal Styling](https://github.com/hubmapconsortium/portal-style-guide/blob/master/README.md)
+  - [Viewer (Vitessce)](https://github.com/vitessce/vitessce#readme)
+- [Spatial visualization (CCF EUI)](https://github.com/hubmapconsortium/ccf-ui/blob/main/README.md)
+  - Cell type
+  - Seq-data access (linking with dbGaP)
+  - [Sample data for CCF demos](https://github.com/hubmapconsortium/ccf-ui-sampledata/blob/master/README.md)
+## Operations
+- Data Release reporting tool (internal & external facets)
+- Publications (consortium website)
