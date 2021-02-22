@@ -7,7 +7,10 @@ The purpose of this document is to categorize HuBMAP efforts through a product m
 
 Linked entries below direct you to the associated code repository if one is present.
 
-## [Infratructure/ Base Product](https://camo.githubusercontent.com/60ffedef9700a05ce2cd48d800edc1cf1057f48cc0b5db228d4d0dffd5a3f40c/68747470733a2f2f646f63732e676f6f676c652e636f6d2f64726177696e67732f642f652f32504143582d31765131495356616e696c567433766577553674656b5669724f78507054734b4d53337a586138744c304a354a6a6454397a53396164675869766d315a6358786f79435f6c6374496c485659684a75492f7075623f773d39323226683d343038)
+## Infratructure/ Base Product
+
+[![Repo diagram](https://docs.google.com/drawings/d/e/2PACX-1vQ1ISVanilVt3vewU6tekVirOxPpTsKMS3zXa8tL0J5JjdT9zS9adgXivm1ZcXxoyC_lctIlHVYhJuI/pub?w=800)](https://docs.google.com/drawings/d/1q0IvliNTX0Xo9EzHTAoRZ2x1gatG_n0gOoLN7uVMJ4o/edit)
+
 - [API Gateway](https://github.com/hubmapconsortium/gateway/blob/test-release/README.md)
 - [Common Coordinate Framework (CCF)](https://github.com/hubmapconsortium/hubmap-ontology#readme)
 - [Pipeline Container Orchestration](https://github.com/hubmapconsortium/ingest-pipeline) 
