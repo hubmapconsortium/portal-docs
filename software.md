@@ -36,7 +36,7 @@ Linked entries below direct you to the associated code repository if one is pres
 - [Protocols registration tool](https://www.protocols.io/workspaces/human-biomolecular-atlas-program-hubmap-method-development)(protocols.io)
 
 ## Spatial registration and semantic annotation (via 3D collision detection)
-- [ASCT+B Reporter](https://github.com/hubmapconsortium/ccf-asct-reporter/blob/develop/README.md)
+- [ASCT+B Reporter](https://github.com/hubmapconsortium/ccf-asct-reporter#readme)
 - [CCF reference objects](https://github.com/hubmapconsortium/ccf-3d-reference-object-library#readme) (body, organs)
 - [CCF registration tool](https://github.com/hubmapconsortium/ccf-3d-registration#readme) (RUI)
 
@@ -52,13 +52,13 @@ Linked entries below direct you to the associated code repository if one is pres
 
 ## Pipeline
 - [Base QA pipeline](https://github.com/hubmapconsortium/ingest-pipeline) (IEC dataset one)
-- Cells API: [cell identification](https://github.com/hubmapconsortium/hubmap-cell-id-gen-py/blob/main/README.md), [backend](https://github.com/hubmapconsortium/cross_modality_query#readme), [js client](https://github.com/hubmapconsortium/hubmap-api-js-client/blob/main/README.md), [py client](https://github.com/hubmapconsortium/hubmap-api-py-client/blob/main/README.md)
-- [Data ingest pipeline](https://github.com/hubmapconsortium/ingest-pipeline/blob/devel/README.md)
+- Cells API: [cell identification](https://github.com/hubmapconsortium/hubmap-cell-id-gen-py#readme), [backend](https://github.com/hubmapconsortium/cross_modality_query#readme), [js client](https://github.com/hubmapconsortium/hubmap-api-js-client#readme), [py client](https://github.com/hubmapconsortium/hubmap-api-py-client#readme)
+- [Data ingest pipeline](https://github.com/hubmapconsortium/ingest-pipeline#readme)
 - Pipeline for:
   - [CODEX (Cytokit + SPRM)](https://github.com/hubmapconsortium/codex-pipeline#readme)
   - [“Example Pipeline”](https://github.com/hubmapconsortium/example-pipeline)
   - [Imaging Mass Spectrometry & MxIF](https://github.com/hubmapconsortium/ims-mxif-pipeline#readme)
-  - [sc/snATAC-seq](https://github.com/hubmapconsortium/sc-atac-seq-pipeline/blob/develop/README.md) (SnapTools, SnapATAC, and chromVAR)
+  - [sc/snATAC-seq](https://github.com/hubmapconsortium/sc-atac-seq-pipeline#readme) (SnapTools, SnapATAC, and chromVAR)
   - [sc/snRNA-seq](https://github.com/hubmapconsortium/salmon-rnaseq/blob/master/README.rst) (Salmon, Scanpy, scVelo)
   - [SPRM](https://github.com/hubmapconsortium/sprm#readme) (Imaging pipeline)
   - Spatial Transcriptomics (Starfish)
@@ -80,8 +80,8 @@ Linked entries below direct you to the associated code repository if one is pres
 ## QA
 - Approval process (currently manual process)
 - [Dataset validation tools](https://github.com/hubmapconsortium/ingest-validation-tools#readme) (data, metadata)
-  - [Metadata submission conversion](https://github.com/hubmapconsortium/tableschema-to-template/blob/main/README.md)
-  - [Tests supporting validation](https://github.com/hubmapconsortium/ingest-validation-tests/blob/devel/README.md)
+  - [Metadata submission conversion](https://github.com/hubmapconsortium/tableschema-to-template#readme)
+  - [Tests supporting validation](https://github.com/hubmapconsortium/ingest-validation-tests#readme)
 - Manual curation tools
 - QC metrics
 
@@ -101,7 +101,7 @@ Linked entries below direct you to the associated code repository if one is pres
 - [Portal & dataset UI](https://github.com/hubmapconsortium/portal-ui#readme)
   - [Portal Styling](https://github.com/hubmapconsortium/portal-style-guide#readme)
   - [Viewer (Vitessce)](https://github.com/vitessce/vitessce#readme)
-- [Spatial visualization (CCF EUI)](https://github.com/hubmapconsortium/ccf-ui/blob/main/README.md)
+- [Spatial visualization (CCF EUI)](https://github.com/hubmapconsortium/ccf-ui#readme)
   - Cell type
   - Seq-data access (linking with dbGaP)
   - [Sample data for CCF demos](https://github.com/hubmapconsortium/ccf-ui-sampledata#readme)
