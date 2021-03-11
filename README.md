@@ -3,7 +3,11 @@ Markdown documentation to be displayed in the Portal. The mapping is simple: `.m
 [`faq.md`](https://github.com/hubmapconsortium/portal-docs/blob/master/faq.md) in this repo
 corresponds to [`/docs/faq`](https://portal.hubmapconsortium.org/docs/faq) in the Portal. 
 
+Chris Briggs (Harvard) oversees curation, assay, and metadata related topics and questions.
 
+Melissa Schwenk (University of Pittsburgh) oversees general consortium and FAQ related topics and questions.
+
+## Deployment details
 
 This repo is included as a git submodule in [`portal-ui`](https://github.com/hubmapconsortium/portal-ui):
 The documents are included in the JS bundle for the HuBMAP Portal, and rendered on the client-side.
@@ -16,12 +20,7 @@ Release schedule:
   - deployed to DEV/TEST/STAGE Monday after 5pm,
   - and, if QA passes, on production by Tuesday afternoon.
 
-This is the regular schedule: If something needs to be out faster, we can try to make it happen;
-Conversely, sometimes there are problems with other systems which block release to production.
-
-Chris Briggs (Harvard) oversees curation, assay, and metadata related topics and questions.
-
-Melissa Schwenk (University of Pittsburgh) oversees general consortium and FAQ related topics and questions.
+This is the regular schedule: If there are problems with a release, doc updates will be delayed.
 
 ## **This shouldn't be where you read the docs!**
 
