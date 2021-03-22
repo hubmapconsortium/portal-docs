@@ -7,9 +7,9 @@ This reference organ was created using data from the "Allen Human Reference Atla
 | Label | Value |
 | :------------- |:-------------|
 | **Creator(s):** | Allen Institute |
-| **Creator ORCID:** | 00dcv1019 |
+| **Creator ORCID:** | [00dcv1019](https://ror.org/00dcv1019) |
 | **Project Lead:** | Katy B&ouml;rner |
-| **ORCID:** | https://orcid.org/0000-0002-3321-6137 |
+| **ORCID:** | [0000-0002-3321-6137](https://orcid.org/0000-0002-3321-6137) |
 | **Date:** | 2021-03-12 |
 | **License:** | Creative Commons Attribution 4.0 International ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)) |
 | **Publisher:** | HuBMAP |

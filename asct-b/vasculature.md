@@ -7,9 +7,9 @@ Anatomical Structures, Cell Types, plus Biomarkers (ASCT+B) tables aim to captur
 | Label | Value |
 | :------------- |:-------------|
 | **Creator(s):** | Griffin Weber; Sujin Lee; Rajeev Malhotra; Marc Halushka; Avinash Boppana |
-| **Creator ORCID:** | 0000-0002-2597-881X; 0000-0002-6692-6880; 0000-0003-0120-4630; 0000-0002-7112-7389; 0000-0003-0834-8274 |
+| **Creator ORCID:** | [0000-0002-2597-881X](https://orcid.org/0000-0002-2597-881X); [0000-0002-6692-6880](https://orcid.org/0000-0002-6692-6880); [0000-0003-0120-4630](https://orcid.org/0000-0003-0120-4630); [0000-0002-7112-7389](https://orcid.org/0000-0002-7112-7389); [0000-0003-0834-8274](https://orcid.org/0000-0003-0834-8274) |
 | **Project Lead:** | Katy B&ouml;rner |
-| **ORCID:** | https://orcid.org/0000-0002-3321-6137 |
+| **ORCID:** | [0000-0002-3321-6137](https://orcid.org/0000-0002-3321-6137) |
 | **Creation Date:** | 2021-03-12 |
 | **License:** | Creative Commons Attribution 4.0 International ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)) |
 | **Publisher:** | HuBMAP |

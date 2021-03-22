@@ -1,5 +1,5 @@
 # 3D Reference Organ for Heart, Male v1.0
-## HHeart, Male 3D Organ v1.0
+## Heart, Male 3D Organ v1.0
 
 ### Description
 This reference organ was created using data from the Visible Human Male, provided by the National Library of Medicine.
@@ -7,9 +7,9 @@ This reference organ was created using data from the Visible Human Male, provide
 | Label | Value |
 | :------------- |:-------------|
 | **Creator(s):** | Kristen Browne |
-| **Creator ORCID:** | 0000-0003-4066-7531 |
+| **Creator ORCID:** | [0000-0003-4066-7531](https://orcid.org/0000-0003-4066-7531) |
 | **Project Lead:** | Katy B&ouml;rner |
-| **ORCID:** | https://orcid.org/0000-0002-3321-6137 |
+| **ORCID:** | [0000-0002-3321-6137](https://orcid.org/0000-0002-3321-6137) |
 | **Date:** | 2021-03-12 |
 | **License:** | Creative Commons Attribution 4.0 International ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)) |
 | **Publisher:** | HuBMAP |
