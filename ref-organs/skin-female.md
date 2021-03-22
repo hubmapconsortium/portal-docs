@@ -7,9 +7,9 @@ This reference organ was created with the Open Source modelling tool MakeHuman; 
 | Label | Value |
 | :------------- |:-------------|
 | **Creator(s):** | Kristen Browne; Leonard Cross |
-| **Creator ORCID:** | 0000-0003-4066-7531; 0000-0003-3398-5507 |
+| **Creator ORCID:** | [0000-0003-4066-7531](https://orcid.org/0000-0003-4066-7531); 0000-0003-3398-5507 |
 | **Project Lead:** | Katy B&ouml;rner |
-| **ORCID:** | https://orcid.org/0000-0002-3321-6137 |
+| **ORCID:** | [0000-0002-3321-6137](https://orcid.org/0000-0002-3321-6137) |
 | **Date:** | 2021-03-12 |
 | **License:** | Creative Commons Attribution 4.0 International ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)) |
 | **Publisher:** | HuBMAP |

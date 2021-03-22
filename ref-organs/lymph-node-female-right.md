@@ -1,13 +1,13 @@
-# 3D Reference Organ for Brain, Female v1.0
-## Brain 3D Organ Female v1.0
+# 3D Reference Organ for Lymph Node, Female, Right v1.0
+## Lymph Node, Female, Right 3D Organ v1.0
 
 ### Description
-This reference organ was created using data from the "Allen Human Reference Atlas – 3D, 2020" representing one half of the human brain (Ding et al., 2016). The 141 anatomical structures were mirrored to arrive at a whole human brain (as intended) and resized to fit the Visible Human Male and Female bodies.
+This reference organ was created using the Clearing-enhanced 3D (Ce3D) method developed by Dr. Weizhe Li, Laboratory of Immune System Biology, National Institute of Allergy and Infectious Diseases, NIH using data documented in https://www.pnas.org/content/114/35/E7321. While the size and cellular composition of mouse and human lymph nodes varies between species, the overall anatomy is well-conserved. 
 
 | Label | Value |
 | :------------- |:-------------|
-| **Creator(s):** | Allen Institute |
-| **Creator ORCID:** | [00dcv1019](https://ror.org/00dcv1019) |
+| **Creator(s):** | Li Yao |
+| **Creator ORCID:** | [0000-0003-2390-083X](https://orcid.org/0000-0003-2390-083X) |
 | **Project Lead:** | Katy B&ouml;rner |
 | **ORCID:** | [0000-0002-3321-6137](https://orcid.org/0000-0002-3321-6137) |
 | **Date:** | 2021-03-12 |
@@ -15,6 +15,6 @@ This reference organ was created using data from the "Allen Human Reference Atla
 | **Publisher:** | HuBMAP |
 | **Funder:** | National Institutes of Health |
 | **Award Number:** | OT2OD026671 |
-| **Publication:** | *Nature Cell Biology Paper; [Ding et al. 2016](https://onlinelibrary.wiley.com/doi/full/10.1002/cne.24080)* |
-| **Publication DOI:** | DOI; https://doi.org/10.1002/cne.24080 |
+| **Publication:** | *Nature Cell Biology Paper* |
+| **Publication DOI:** | DOI |
 | **How to Cite:** | Browne, K., Cross, L. E., Herr II, B. W., Record, L,  Quardokus, E, Bueckle, A., B&ouml;rner, K. (2021). *HuBMAP CCF 3D Reference Object Library*. https://hubmapconsortium.github.io/ccf/pages/ccf-3d-reference-library.html. Accessed on March 12, 2021. |
