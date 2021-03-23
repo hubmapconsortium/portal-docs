@@ -14,11 +14,11 @@ The documents are included in the JS bundle for the HuBMAP Portal, and rendered 
 
 Release schedule:
 - Changes made by Monday 5pm will be 
-  - deployed to DEV/TEST/STAGE Wednesday after 5pm,
-  - and, if QA passes, on production by Thursday afternoon.
-- Changes made by Wednesday 5pm will be 
-  - deployed to DEV/TEST/STAGE Monday after 5pm,
+  - deployed to DEV/TEST/STAGE Tuesday morning,
   - and, if QA passes, on production by Tuesday afternoon.
+- Changes made by Wednesday 5pm will be 
+  - deployed to DEV/TEST/STAGE Thursday morning,
+  - and, if QA passes, on production by Thursday afternoon.
 
 This is the regular schedule: If there are problems with a release, doc updates will be delayed.
 
