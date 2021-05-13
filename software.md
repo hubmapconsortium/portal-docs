@@ -74,6 +74,7 @@ Linked entries below direct you to the associated code repository if one is pres
   - [Sequencing (snap) file tools](https://github.com/hubmapconsortium/SnapTools/blob/hubmap-develop/README.md)
   - [Visualization pre-processing](https://github.com/hubmapconsortium/portal-containers#readme)
   - [Vitessce pre-processing](https://github.com/hubmapconsortium/vitessce-data#readme)
+  - [Giotto - Analysis of spatial transcriptomics data](https://rubd.github.io/Giotto_site/index.html)
 - [Workflow management](https://github.com/hubmapconsortium/airflow#readme) + [Common Workflow Language](https://github.com/hubmapconsortium/cwltool) tool
   - [Development workflow management](https://github.com/hubmapconsortium/airflow-dev#readme)
 
