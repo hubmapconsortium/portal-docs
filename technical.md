@@ -1,4 +1,4 @@
-# HuBMAP Technical Documentation
+# HuBMAP Documentation
 
 <details>
 <summary>HIVE Software Engineering Principles</summary>
@@ -99,33 +99,23 @@
 
 -   The HuBMAP Portal provides access to cutting-edge tools to help analyze the data such as the [ASCT+B Reporter](https://github.com/hubmapconsortium/ccf-asct-reporter#readme) - includes a partonomy tree that presents relationships between various anatomical structures and substructures, that is combined with their respective cell types and biomarkers via a bimodal network - and [Azimuth](https://github.com/satijalab/azimuth#readme) - is a Shiny app demonstrating a query-reference mapping algorithm for single-cell data - and the Cells API: [backend](https://github.com/hubmapconsortium/cross_modality_query#readme), [js client](https://github.com/hubmapconsortium/hubmap-api-js-client#readme), [py client](https://github.com/hubmapconsortium/hubmap-api-py-client#readme) - with other tolls coming such as the [Knowledge Graph](https://github.com/hubmapconsortium/ontology-api#readme) and associated [Schema](https://github.com/dbmi-pitt/UMLS-Graph#readme) for Ontology ingest & API services and application and biomedical ontologies
     
+
 -   The HIVE monitors HuBMAP portal activity including usage, download, and limited demographic factors using [Monitoring services](https://datastudio.google.com/u/0/reporting/03a48766-c00a-4909-8790-03caf3292010/page/FltfB?s=vJoh994ntRw). Current State [FAIRness Assessment](https://docs.google.com/document/d/1fc3r3JGiXmg3If7aYV_K5BQTVa-yY0U3tAggBknkw_Q/edit?usp=sharing).
 </details>
 
 <details>
-<summary>HIVE Sequencing Data & dbGAP</summary>
-
+<summary>HuBMAP Governance & Due Diligence</summary>
+    
+-   [HuBMAP consortium policies](https://hubmapconsortium.org/policies/) are located on the consortium website and cover associate membership, consent, data sharing, data use, material transfer, publication, and NIH-applicable [Genomic Data Sharing with HuBMAP data](https://portal.hubmapconsortium.org/docs/consent).
+    
+-   We use [three categories of permissions](https://portal.hubmapconsortium.org/docs/datasets) for securing access to HuBMAP data: protected, consortium, and public
+    
+-   Consortium-level access is driven from an integrated  [user registration](https://github.com/hubmapconsortium/member-ui#readme) tool that collects and associates credentials among Members’ institutions, Globus file transfer service, GitHub code repositories, Google Drive document storage, and other services presented via the WordPress based HuBMAP consortium website.
+    
 -   Any identifiable sequencing data is accessible via dbGaP within 6 months of initial publication on the HuBMAP portal in order to ensure secure access to this sensitive data -- for details, see the [Sequencing data dbGaP submission tool](https://github.com/hubmapconsortium/dbgap-submission-scripts#readme)
     
 -   Data providers and the HIVE are responsible for secure loading and storage of identifiable sequencing data -- generally, the data providers manage administrative interaction with dbGaP and the HIVE (IEC) manages technical interaction & data loading of identifiable sequencing datasets.
-</details>
-
-<details>
-<summary>HuBMAP Policies</summary>
-</details>
-
-<details>
-<summary>HuBMAP Data</summary>
-</details>
-
-<details>
-<summary>HuBMAP Technical</summary>
-</details>
-
-<details>
-<summary>Miscellaneous</summary>
     
--   HuBMAP has an integrated  [User registration](https://github.com/hubmapconsortium/member-ui#readme) tool to collect and associate credentials among Members’ institutions, Globus, and other services like GitHub, Google Drive, etc...with WordPress.
-    
--   [HuBMAP-generated and referenced publications](https://scholar.google.com/citations?user=CtGSN80AAAAJ&hl=en) is maintained in Google Scholar.
+
+-   We also automatically collect and display [HuBMAP-generated and referenced publications](https://scholar.google.com/citations?user=CtGSN80AAAAJ&hl=en) using Google Scholar.
 </details>
