@@ -67,10 +67,6 @@
 -   The HuBMAP pipelines generate these data types via these tools: [Sequencing (FASTQ) file tools](https://github.com/hubmapconsortium/fastq-utils), [Sequencing (snap) file tools](https://github.com/hubmapconsortium/SnapTools/blob/hubmap-develop/README.md), [Visualization pre-processing](https://github.com/hubmapconsortium/portal-containers#readme), [Vitessce pre-processing](https://github.com/hubmapconsortium/vitessce-data#readme), [Base QA pipeline](https://github.com/hubmapconsortium/ingest-pipeline). QA metrics service (assay specific pipeline QA metric sharing).
     
 -   Each of the pipelines produce data and metadata back to the ingest services to enable management of publication status and controlled access of metadata and datasets. Datasets, once approved, are pushed to published and public status, using custom code which changes the status to public of upstream Provenance entities (e.g., samples, donors) and downstream files (e.g., movement of data to Globus public access endpoints if not protected sequence data).
-</details>
-
-<details>
-<summary> HuBMAP Performs Continuous Data Release Planning, Monitoring, and Management</summary>
     
 -   We currently manually capture dataset submission & publication efforts including active datasets’ status, target month of publication, and future datasets. We comprehensively track donor, sample, dataset, spatial, pipeline, visualization, antibody, security (identifiably sequencing), protocol, documentation, metadata & QA/QC standards compliance, and data contributors.
     
