@@ -1,11 +1,19 @@
 # portal-docs
 Markdown documentation to be displayed in the Portal. The mapping is simple: `.md` files here are served under `/docs` on the Portal. For example,
 [`faq.md`](https://github.com/hubmapconsortium/portal-docs/blob/master/faq.md) in this repo
-corresponds to [`/docs/faq`](https://portal.hubmapconsortium.org/docs/faq) in the Portal. 
+corresponds to [`/docs/faq`](https://portal.hubmapconsortium.org/docs/faq) in the Portal.
 
-Chris Briggs (Harvard) oversees curation, assay, and metadata related topics and questions.
+If we rename or consolidate pages, we don't want old links to just 404: We'd prefer that the old URL redirect to the new one.
+Redirects can also be configured in this repo: If `/docs/old` should redirect to `/docs/new`,
+then the file `old.md` should be replaced by `old.redirect`, which should contain just one line:
+```
+/docs/new
+```
+(While Markdown is a general-purpose technology, this way of configuring redirects is specific to the HuBMAP Portal.)
 
-Melissa Schwenk (University of Pittsburgh) oversees general consortium and FAQ related topics and questions.
+Responsibilities:
+- Chris Briggs (Harvard) oversees curation, assay, and metadata related topics and questions.
+- Melissa Schwenk (University of Pittsburgh) oversees general consortium and FAQ related topics and questions.
 
 ## Deployment details
 
