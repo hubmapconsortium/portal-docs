@@ -17,7 +17,7 @@ Linked entries below direct you to the associated code repository if one is pres
 - [Documentation](https://github.com/hubmapconsortium/portal-docs#readme) (on Portal)
   - [CCF Checklist and SOPs](https://hubmapconsortium.github.io/ccf/index.html)
   - [MC-IU Onboarding videos](https://hubmapconsortium.github.io/ccf/index.html)
-  - [IVMOOC](https://hubmapconsortium.github.io/ccf/index.html)
+  - [VHMOOC](https://hubmapconsortium.github.io/ccf/index.html)
 - Hybrid Cloud Infrastructure
 - [Identity system](https://github.com/hubmapconsortium/uuid-api/blob/test-release/README.md)
 - [Knowledge Graph](https://github.com/hubmapconsortium/ontology-api#readme)
