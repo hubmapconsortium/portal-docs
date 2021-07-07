@@ -1,6 +1,6 @@
 # HuBMAP Product Offerings: Project Management, Communication, Tracking, & Reporting
 
-### Last Updaed: 2/19/2021 
+### Last Updated: 2/19/2021 
 
 ## Description:
 The purpose of this document is to categorize HuBMAP efforts through a product management lens in order to structure conversations around, work linkages to, and dependencies among software development level [epics and features](https://www.kbp.media/themes-epics-features-user-stories/).
@@ -40,7 +40,7 @@ Linked entries below direct you to the associated code repository if one is pres
 
 ## Spatial registration and semantic annotation (via 3D collision detection)
 - [ASCT+B Reporter](https://github.com/hubmapconsortium/ccf-asct-reporter#readme)
-- [CCF reference objects](https://github.com/hubmapconsortium/ccf-3d-reference-object-library#readme) (body, organs)
+- [CCF reference library](https://hubmapconsortium.github.io/ccf/pages/ccf-3d-reference-library.html) (body, organs)
 - [CCF registration tool](https://github.com/hubmapconsortium/ccf-3d-registration#readme) (RUI)
 
 ## Data & Metadata
