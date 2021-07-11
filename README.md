@@ -12,6 +12,13 @@ Melissa Schwenk (University of Pittsburgh) oversees general consortium and FAQ r
 This repo is included as a git submodule in [`portal-ui`](https://github.com/hubmapconsortium/portal-ui):
 The documents are included in the JS bundle for the HuBMAP Portal, and rendered on the client-side.
 
+## Requesting typos, updates or corrections
+All requests for documentation edits (typos, content updates & corrections) should be reported to help@hubmapconsortium.org.
+Deb Nigra or Megan Carroll will forward these requests directly to Melissa Schwenk who will file each issue in
+https://github.com/hubmapconsortium/portal-docs/issues. Melissa will assign each issue to herself & Chris Briggs
+who will then triage them and make the requested edits. Edit requests that are deemed significant will be reviewed
+by relevant HuBMAP team members.
+
 Release schedule:
 - Changes made by Monday 5pm will be 
   - deployed to DEV/TEST/STAGE Tuesday morning,
