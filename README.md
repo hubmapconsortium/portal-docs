@@ -13,8 +13,8 @@ then the file `old.md` should be replaced by `old.redirect`, which should contai
 
 Responsibilities:
 - Chris Briggs (Harvard) oversees curation, assay, and metadata related topics and questions.
-- Melissa Schwenk (University of Pittsburgh) oversees general consortium and FAQ related topics and questions.
-
+- Peter Kant is ultimately responsible for everything else. (Melissa Schwenk edits documents but will not respond to issues or PRs.)
+ 
 ## Deployment details
 
 This repo is included as a git submodule in [`portal-ui`](https://github.com/hubmapconsortium/portal-ui):
