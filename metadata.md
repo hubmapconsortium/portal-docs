@@ -51,4 +51,4 @@ HuBMAP metadata documentation and submission specifications
   - Contact: [Kevin Contrepois](mailto:kcontrep@stanford.edu)
 - [WGS](/docs/assays/wgs)
   - [Specification and submission tsv](https://github.com/hubmapconsortium/ingest-validation-tools/tree/master/docs/wgs)
-  - Contact: [Annika Weimer](mailto:aweimer@stanford.edu))
+  - Contact: [Annika Weimer](mailto:aweimer@stanford.edu)
