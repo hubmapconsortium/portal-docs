@@ -120,9 +120,3 @@ along with Excel templates with dropdowns for data entry.
 
 -   We also automatically collect and display [HuBMAP-generated and referenced publications](https://scholar.google.com/citations?user=CtGSN80AAAAJ&hl=en) using Google Scholar.
 </details>
-
-
-<details>
-<summary>HuBMAP Assays and Metadata</summary>
-    
--   HuBMAP assay documentation and links to assay metadata template are accessible from the [metadata page](https://portal.hubmapconsortium.org/docs/metadata).
