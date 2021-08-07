@@ -44,7 +44,10 @@
 <details>
 <summary>HuBMAP Data Validation</summary>
 
--   HuBMAP Data Validation is a continuously improving process that starts with defining QC/QA standards and establishing definitions for donor, sample and assay metadata. Standards, definitions, metadata schema and data directory schema are created by teams under the Data Coordination Working Group. The metadata schema may be accessed in Github via links from the [metadata page](https://portal.hubmapconsortium.org/docs/metadata) and downloaded as Excel spreadsheets. These spreadsheet templates have dropdown menus of constrained input for certain metadata fields.
+-   HuBMAP Data Validation is a continuously improving process that starts with defining QC/QA standards and establishing definitions for donor, sample and assay metadata.
+Standards, definitions, metadata schema and data directory schema are created by teams under the Data Coordination Working Group.
+Metadata schemas are available [here](https://hubmapconsortium.github.io/ingest-validation-tools/),
+along with Excel templates with dropdowns for data entry.
 
     
 -   Data providers format their data and metadata files according to the metadata and data directory schema specifications for each assay type. Required formats for metadata field input are described in the Github page for each assay-specific metadata schema. Data providers also include the required QA/QC assessments of their data as components of the submission.
