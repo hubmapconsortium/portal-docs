@@ -19,7 +19,7 @@
 <details>
 <summary>HuBMAP Data Ingest</summary>
     
--   HuBMAP HIVE is responsible to produce and manage data ingest processes and associated software in collaboration with the Data Providers, whereas HuBMAP Data Providers are responsible to produce data and metadata in collaboration with the HIVE. These have been very productive activities and are rapidly evolving to scalable data ingest processes with the current state outlined below.
+-   HuBMAP HIVE is responsible for producing and managing data ingest processes and associated software in collaboration with the Data Providers. HuBMAP Data Providers are responsible for producing data and metadata in collaboration with the HIVE. These processes are rapidly evolving into scalable pipelines.
     
 -   The core ingest software and UI includes: the [Data ingest tool](https://github.com/hubmapconsortium/ingest-ui#readme) (data & metadata, sample, assay, antibody report, contributor upload), [Manual dataset ingest utilities](https://github.com/hubmapconsortium/manual-data-ingest), [Workflow management](https://github.com/hubmapconsortium/airflow#readme) + [Common Workflow Language](https://github.com/hubmapconsortium/cwltool) tool, individual data pipelines, [common coordinate framework / spatial registration via RUI](https://hubmapconsortium.github.io/ccf/), with Federated identity management and [file transfer via Globus](https://docs.globus.org/).
     
@@ -44,9 +44,14 @@
 <details>
 <summary>HuBMAP Data Validation</summary>
 
--   HuBMAP Data Validation is a continuously improving process that starts with data definitions including HuBMAP data QA/QC [standards for donor, sample, tissue](https://portal.hubmapconsortium.org/docs/metadata), and [assay](https://portal.hubmapconsortium.org/docs/assays) being created by a set of corresponding small teams under the Data Coordination Working Group.
+-   HuBMAP Data Validation is a continuously improving process that starts with defining QC/QA standards and establishing definitions for donor, sample and assay metadata.
+Standards, definitions, metadata schema and data directory schema are created by teams under the Data Coordination Working Group.
+Metadata schemas are available [here](https://hubmapconsortium.github.io/ingest-validation-tools/),
+along with Excel templates with dropdowns for data entry.
+
     
--   Data providers format their data according to [these QA/QC standards](https://portal.hubmapconsortium.org/docs/assays) for submission, which are validated on ingest. Data providers also share their local QA/QC results as part of their data submission
+-   Data providers format their data and metadata files according to the metadata and data directory schema specifications for each assay type. Required formats for metadata field input are described in the [Github page for each assay-specific metadata schema](https://hubmapconsortium.github.io/ingest-validation-tools/). Data providers also include the required QA/QC assessments of their data as components of the submission.
+
     
 -   Data providers receive registration and validation guidance using [HuBMAP’s data submission guide (currently v1.0)](https://docs.google.com/document/d/1KR2TC2y-NIjbBRHTu0giSZATMUfPKxN_/edit) as well as [Ingest tool documentation](https://github.com/hubmapconsortium/ingest-validation-tools).
     
@@ -54,7 +59,7 @@
     
 -   HuBMAP staff conduct 178 (and growing) automated and manual QA/QC checks as part of the data submission & publication process. Manual validation steps are being automated as development capacity allows.
     
--   Prior to publication, each dataset is reviewed in the Data Portal logged in as HuBMAP Members and is formally approved by the data providing institution and one or more HIVE members. Data providers must also QA/QC check spatial and semantic metadata using the [CCF EUI](https://portal.hubmapconsortium.org/ccf-eui).
+-   Prior to publication, each dataset is formally approved by the data-providing institution and one or more HIVE members. Data providers must also confirm the quality of spatial and semantic metadata using the [CCF EUI](https://portal.hubmapconsortium.org/ccf-eui).
 </details>
 
 <details>
