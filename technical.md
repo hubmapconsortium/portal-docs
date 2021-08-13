@@ -19,7 +19,7 @@
 <details>
 <summary>HuBMAP Data Ingest</summary>
     
--   HuBMAP HIVE is responsible for producing and managing data ingest processes and associated software in collaboration with the Data Providers. HuBMAP Data Providers are responsible for producing data and metadata in collaboration with the HIVE. These processes are rapidly evolving into scalable ingest processes.
+-   HuBMAP HIVE is responsible for producing and managing data ingest processes and associated software in collaboration with the Data Providers. HuBMAP Data Providers are responsible for producing data and metadata in collaboration with the HIVE. These processes are rapidly evolving into scalable pipelines.
     
 -   The core ingest software and UI includes: the [Data ingest tool](https://github.com/hubmapconsortium/ingest-ui#readme) (data & metadata, sample, assay, antibody report, contributor upload), [Manual dataset ingest utilities](https://github.com/hubmapconsortium/manual-data-ingest), [Workflow management](https://github.com/hubmapconsortium/airflow#readme) + [Common Workflow Language](https://github.com/hubmapconsortium/cwltool) tool, individual data pipelines, [common coordinate framework / spatial registration via RUI](https://hubmapconsortium.github.io/ccf/), with Federated identity management and [file transfer via Globus](https://docs.globus.org/).
     
