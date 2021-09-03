@@ -2,38 +2,39 @@
 
 # HuBMAP  Liquid Chromatography Mass Spectrometry (LCMS)
 
-### Last Updated 6/22/2020
+### Last Updated 9/3/2021
 
 ## Overview
 This document details mass spectrometry (mass spec, MS) assays, data states, metadata fields, file structure, QA/QC thresholds, and data processing.
 
 ## Description
-Coupling of liquid chromatography (LC) to mass spectrometry (MS) has become an indispensable technique for analyzing complex mixtures of biomolecules. Chromatography is a technique for separation of molecules based on their interactions with a stationary phase and a mobile phase of flowing solvent. For example, in reversed-phase chromatography, the stationary phase is commonly composed of hydrophobic C18-functionalized silica particles that are packed into a column, and the mobile phase is composed of a combination of water and acetonitrile. Based on their differing hydrophobicities, biomolecules partition differently between the stationary and mobile phases. Consequently, biomolecules elute off of a column at different times. Mass spectrometry measures the molecular weights of eluting biomolecules via detection of gas-phase ions. To obtain the masses of eluting biomolecules via mass spectrometry, solution-phase biomolecules are most commonly converted to gas-phase ions via electrospray ionization in which a high voltage is applied to the liquid coming out of the column. The following are descriptions of the various LC-MS assays that are being utilized for HuBMAP (Figure 1).
-**![](https://lh3.googleusercontent.com/U6NqmB-BleXGCTMlUwEFxnEp37iEVIvGi4HBmrKIOOhwSgYyHX5iS3MOtRcVzWaRLbkEcXHcUaeyXVbtRSgdOue_80Mf9R0ItmAPO-ObPS38E94A-HKeLBqJIWQqOkQXrsucFWJm)**
+Liquid chromatography (LC) coupled with mass spectrometry (MS) has become an indispensable technique for analyzing complex mixtures of biomolecules. LC is a technique for separation of molecules based on their interactions with a stationary phase and a mobile phase of flowing solvent. For example, in reversed-phase LC, the stationary phase is commonly composed of hydrophobic C18-functionalized silica particles that are packed into a column, and the mobile phase is typically composed of a combination of water and acetonitrile. Based on their differing hydrophobicities, biomolecules partition differently between the stationary and mobile phases. Consequently, biomolecules elute off of a column at different times. Mass spectrometry (MS) measures the molecular weights of eluting biomolecules via detection of gas-phase ions. Solution-phase biomolecules are most commonly converted to gas-phase ions via electrospray ionization in which a high voltage is applied to the liquid coming out of the column. The following are descriptions of the various LC-MS assays that are being utilized for HuBMAP **(Figure 1)**
+![](https://lh3.googleusercontent.com/gWmjFkpLKvypNC4fgCabfXctNdJyG0dBaPQaKsqYYJFXssJwkczNec88Ygaq-kKU3XzSBfsCZARIGhLMP9qg8vuMF9xeGhMEhMGMPZ07hoDvow4a1Vqw1Dq4SdpWnaYAobaxeuRgqI8goWT7yQ=s0)
 *Figure 1.* A visual depiction of the general sample preparation procedures for LC-MS assays.
 
 
 
 ## HuBMAP Data States (Levels)
-The HuBMAP project provides data to the public in a variety of data states, which denote the amount of processing that has been done to the data. The data states for RNA seq data provided by the HuBMAP project are listed below:
+The HuBMAP project provides data to the public in a variety of data states, which denote the amount of processing that has been done to the data.  The data states for LC-MS  data provided by the HuBMAP project are listed below:
 
 |**Data State** |  **Description**| **LC/MS File Format** | 
 |--|--|--|
-|  0 | Raw data: raw MS data from instrument.| Raw, wiff|
-| 1 |  Txt, tsv, csv: MS intensity (spectral count) + Annotation |  txt, tsv, csv|
+|  0 | Raw data:  raw MS data from instrument. Note that data from some vendors are folders of multiple files, not a single file (indicated by *). | Raw, *.d, .mzML, *.raw|
+| 1 |  Annotated data: identified biomolecules. In most cases these files will include additional experimental data such as intensity. |  txt, csv|
+| 2 |  Assay metadata:  assay / instrument parameters |  .tsv|
 
 ## HuBMAP Metadata 
 *Definition of Metadata Levels*
--   Level 1: These are attributes that are common to all assays, for example, the type (“CODEX”) and category of assay (“imaging”), a timestamp, and the name of the person who executed the assay.
+-   Level 1: These are attributes that are common to all assays, for example, the type (LC-MS Bottom-Up) and category of assay (“mass spectrometry”), a timestamp, and the name of the person who executed the assay.
     
--   Level 2: These are attributes that are common to a category of HuBMAP assays, i.e. imaging, sequencing, or mass spectrometry. For example, for imaging assays this includes fields such as x resolution and y resolution.
-    
--   Level 3: These are attributes that are specific to the type of assay, for example for CODEX that would include number of antibodies and number of cycles.
+-   Level 2: These are attributes that are common to a category of HuBMAP assays, i.e. imaging, sequencing, or mass spectrometry. For example, for mass spectrometry  assays this includes fields such as mass resolving power. 
+
+-   Level 3: These are attributes that are specific to the type of assay, for example for LC-MS Bottom-Upthat would include *LC instrument model*
     
 -   Level 4: This is information that might be unique to a lab or is not required for reproducibility or is otherwise not relevant for outside groups. This information is submitted in the form of a single file, a ZIP archive containing multiple files, or a directory of files. There is no formatting requirement (although formats readable with common tools such as text editors are preferable over proprietary binary formats).
     
  ##  Associated Files 
-All HuBMAP data will have searchable metadata fields. 
+All HuBMAP data will have searchable metadata fields. **[EXAMPLE INGEST FORM.](https://docs.google.com/spreadsheets/d/1cbUvVFA3zaMNBUdciQxCihFLc6tZ6NQM43bJvlr7A70/edit#gid=1970171321)**
 
 The metadata schema is available in [Github](https://github.com/hubmapconsortium/ingest-validation-tools/tree/master/docs/lcms) for download.
 
