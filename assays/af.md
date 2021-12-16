@@ -12,7 +12,7 @@ Autofluorescence microscopy exploits endogenous fluorescence in a biological tis
 Some terms in this document may not be familiar to all HuBMap users. The following figures illustrate several of these terms:
 
 ![](https://github.com/cebriggs7135/IMAGES/blob/main/Figure-Microscopy_terms.png)    
-*Figure 1: Illustration of microscopy terms. The black box represents a slide or cover slip holding the sample. Blue boxes represent “regions” or user defined imaging areas. For instance, one selects a “region” containing a microstructure of interest to be captured in an image. Red boxes represent “tiles” or the microscope “field of view”. The size of a tile is determined by the microscope settings and objective. An imaging region is divided into contiguous tiles.
+*Figure 1: Illustration of microscopy terms. The black box represents a slide or cover slip holding the sample. Blue boxes represent “regions” or user-defined imaging areas. For instance, one selects a “region” containing a microstructure of interest to be captured in an image. Red boxes represent “tiles” or the microscope “field of view”. The size of a tile is determined by the microscope settings and objective. An imaging region is divided into contiguous tiles.
 Because the field of view cannot be changed, tiles will overhang from the region, ensuring the entire region is imaged at the expense of extra tiles being acquired.*
 
 ![](https://lh6.googleusercontent.com/8p8RY_RlzXv9TWpDhtNeD-KFT0-NZivYa_T6EQeg9fhj14Unt64PN7BHzVEaNZbt3TrMtIpwj2LIO-wEfyTr8JXHZqij9-MnVohapA-Zsmz4YfSjLZTs494bKnaug1Ue-pbg02VG)
