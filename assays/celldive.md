@@ -12,7 +12,7 @@ There are a variety of terms used in this document that may not be familiar to a
 
 ![](https://lh5.googleusercontent.com/IUV_tmeyHIEBNrkwXEOK-HrAuMbpblohZOH_milqDyCgOvnr29AdsYZFvKJxBQxskplL2gjAjcZejwaZKS6TVfaXQlqCG6o0OwIuwN5hg_tU2PyDy7sqUwmNvWBEdU1N_1MzgyiyWXU0Vn2V)
 
-**Figure 1:** *Diagram of microscopy terms. The black box is an example slide or cover slip where the sample is located. Blue boxes are examples of “regions” or user defined imaging areas. For instance, if you want to image a specific structure in the tissue, you would designate a “region” over the structure. Red boxes are examples of “tiles” or the microscope “field of view”. The size of the tile is dependent on the microscope set up and objective. Tiles will fill the region. Because the field of view cannot be changed, tiles will overhang from the region, ensuring the entire region is imaged at the expense of extra tiles being acquired.*
+**Figure 1:** *Diagram of microscopy terms. The black box represents a slide or cover slip holding the sample. Blue boxes represent “regions” or user-defined imaging areas. For instance, one selects a “region” containing a microstructure of interest to be captured in an image. Red boxes represent “tiles” or the microscope “field of view”. The size of a tile is determined by the microscope settings and objective. An imaging region is divided into contiguous tiles. Because the field of view cannot be changed, tiles will overhang from the region, ensuring the entire region is imaged at the expense of extra tiles being acquired.*
 
 ![](https://lh6.googleusercontent.com/tygqsED6l7B6SPzOe6_z37HWMO0oCbZs04Rtuu9EjWjQohQoqZyd7gZVJDgP0lg9ooqUOtTdWM-RuGz8kLi1MVIVCyg2oHzcEAugNtnxe8DsWVt_Eo9JOPLodMHIvBD_celucSqfNOBC6Ilt)
 
