@@ -9,10 +9,10 @@ This document details AF data states, metadata fields, file structure, QA/QC thr
 Autofluorescence microscopy exploits endogenous fluorescence in a biological tissue to capture an image. The image can then be used to integrate other images from multiple modalities and to align tissues within a 3D experiment. Autofluorescence microscopy requires no sample preparation and can be performed on any fluorescence microscope.
 
 ## Definitions: 
-There are a variety of terms used in this document that may not be familiar to all researchers wanting to make use of the HubMap data. The following figures illustrate several of these terms:
+Some terms in this document may not be familiar to all HuBMap users. The following figures illustrate several of these terms:
 
 ![](https://github.com/cebriggs7135/IMAGES/blob/main/Figure-Microscopy_terms.png)    
-*Figure 1: Pictorial representation of microscopy terms. The black box is an example slide or cover slip where the sample is located. Blue boxes are examples of “regions” or user defined imaging areas. For instance, if you want to image a specific structure in the tissue, you would designate a “region” over the structure. Red boxes are examples of “tiles” or the microscope “field of view”. The size of the tile is dependent on the microscope set up and objective. Tiles will fill the region.
+*Figure 1: Illustration of microscopy terms. The black box represents a slide or cover slip holding the sample. Blue boxes represent “regions” or user defined imaging areas. For instance, one selects a “region” containing a microstructure of interest to be captured in an image. Red boxes represent “tiles” or the microscope “field of view”. The size of a tile is determined by the microscope settings and objective. An imaging region is divided into contiguous tiles.
 Because the field of view cannot be changed, tiles will overhang from the region, ensuring the entire region is imaged at the expense of extra tiles being acquired.*
 
 ![](https://lh6.googleusercontent.com/8p8RY_RlzXv9TWpDhtNeD-KFT0-NZivYa_T6EQeg9fhj14Unt64PN7BHzVEaNZbt3TrMtIpwj2LIO-wEfyTr8JXHZqij9-MnVohapA-Zsmz4YfSjLZTs494bKnaug1Ue-pbg02VG)
