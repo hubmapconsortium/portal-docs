@@ -89,8 +89,8 @@ In order to test for batch effects, PCA plots are generated to confirm correct c
 
 ## For Additional Help
 - For general information on LC-MS, contact:  [Jeffrey Spraggins](mailto:jeff.spraggins@Vanderbilt.edu) 
-- For questions about shotgun LC-MS (targeted lipidomics), contact: [Kevin Contrepois](mailto:kcontrep@stanford.edu)
+- For questions about shotgun LC-MS (targeted lipidomics), contact: [Sam Lancaster](mailto:slancast@stanford.edu) 
 - For questions about TMT LC-MS (proteomics), contact: [Lihua Jiang](mailto:lihuaj@stanford.edu)
 - For questions about untargeted LC-MS/MS (untargeted proteomics), contact: [Jeffrey Spraggins](mailto:jeff.spraggins@Vanderbilt.edu)
-- For questions about untargeted LC-MS (untargeted metabolomics), contact: [Kevin Contrepois](mailto:kcontrep@stanford.edu)
+- For questions about untargeted LC-MS (untargeted metabolomics), contact: [Sam Lancaster](mailto:slancast@stanford.edu)
 
